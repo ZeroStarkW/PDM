@@ -1,0 +1,1 @@
+[{"content": "实施《PdM 多模态演进路线》首期：统一版本化遥测契约 + 共享分析内核与模态插件 + 基线按特征编码迁移 PostgreSQL + MCSA 电机试点。基于当前工作区（四波未提交单模态功能之上）实施，不回滚、不覆盖、不提交。", "description": "首期目标", "priority": "high", "status": "pending"}, {"context": "探索结论：工作区为单模态振动 MVP；Flyway 已用至 V10；振动链路为兼容红线（模拟器/旧样例零修改、HI 与告警行为等价）；application.yml 含用户本地凭据，只能追加不能改动现有行。", "description": "现状与红线", "priority": "high", "status": "completed"}]

@@ -1,0 +1,131 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: pdm-postgres
+    environment:
+      POSTGRES_DB: pdm
+      POSTGRES_USER: pdm
+      POSTGRES_PASSWORD: ${PDM_DB_PASSWORD:-pdm-local-only}
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pdm -d pdm"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  influxdb3:
+    image: influxdb:3-core
+    container_name: pdm-influxdb3
+    command:
+      - influxdb3
+      - serve
+      - --node-id=node0
+      - --object-store=file
+      - --data-dir=/var/lib/influxdb3/data
+      - --admin-token-file=/run/secrets/admin-token
+    ports:
+      - "127.0.0.1:8181:8181"
+    secrets:
+      - admin-token
+    volumes:
+      - influxdb-data:/var/lib/influxdb3/data
+
+  mosquitto:
+    image: eclipse-mosquitto:2
+    container_name: pdm-mosquitto
+    ports:
+      - "127.0.0.1:1883:1883"
+    volumes:
+      - ./config/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - mosquitto-data:/mosquitto/data
+      - mosquitto-log:/mosquitto/log
+
+  app:
+    build: .
+    container_name: pdm-app
+    environment:
+      PDM_DB_URL: jdbc:postgresql://postgres:5432/pdm
+      PDM_DB_USERNAME: pdm
+      PDM_DB_PASSWORD: ${PDM_DB_PASSWORD:-pdm-local-only}
+      PDM_INFLUX_URL: http://influxdb3:8181
+      PDM_INFLUX_TOKEN: ${PDM_INFLUX_TOKEN:-}
+      PDM_INFLUX_DATABASE: pdm-ts-data
+      PDM_INFLUX_RETENTION: ${PDM_INFLUX_RETENTION:-365d}
+      PDM_MQTT_ENABLED: ${PDM_MQTT_ENABLED:-true}
+      PDM_MQTT_URL: tcp://mosquitto:1883
+      PDM_MQTT_CLIENT_ID: pdm-platform
+      PDM_MQTT_USERNAME: ${PDM_MQTT_USERNAME:-}
+      PDM_MQTT_PASSWORD: ${PDM_MQTT_PASSWORD:-}
+      PDM_MQTT_TOPIC: pdm/v1/+/+/+/telemetry
+      PDM_MQTT_V2_TOPIC: ${PDM_MQTT_V2_TOPIC:-pdm/v2/+/+/+/telemetry}
+      PDM_ADMIN_USERNAME: ${PDM_ADMIN_USERNAME:-admin}
+      PDM_ADMIN_PASSWORD: ${PDM_ADMIN_PASSWORD:-}
+      PDM_COOKIE_SECURE: ${PDM_COOKIE_SECURE:-false}
+      PDM_BASELINE_LEARNING_DURATION: ${PDM_BASELINE_LEARNING_DURATION:-PT6M}
+      PDM_SPECTRUM_MIN_SAMPLES: ${PDM_SPECTRUM_MIN_SAMPLES:-30}
+      PDM_SPECTRUM_WINDOW: ${PDM_SPECTRUM_WINDOW:-P30D}
+      PDM_MAINTENANCE_POLL_INTERVAL: ${PDM_MAINTENANCE_POLL_INTERVAL:-PT1M}
+      PDM_DEMO_DATA: ${PDM_DEMO_DATA:-false}
+      PDM_ALERT_WEBHOOK_ENABLED: ${PDM_ALERT_WEBHOOK_ENABLED:-false}
+      PDM_ALERT_WEBHOOK_URL: ${PDM_ALERT_WEBHOOK_URL:-}
+      PDM_NOTIFICATION_POLL_INTERVAL: ${PDM_NOTIFICATION_POLL_INTERVAL:-PT5S}
+      PDM_NOTIFICATION_ACKNOWLEDGEMENT_SLA: ${PDM_NOTIFICATION_ACKNOWLEDGEMENT_SLA:-PT30M}
+      PDM_NOTIFICATION_INITIAL_BACKOFF: ${PDM_NOTIFICATION_INITIAL_BACKOFF:-PT30S}
+      PDM_NOTIFICATION_MAX_BACKOFF: ${PDM_NOTIFICATION_MAX_BACKOFF:-PT1H}
+      PDM_NOTIFICATION_MAX_ATTEMPTS: ${PDM_NOTIFICATION_MAX_ATTEMPTS:-8}
+      PDM_WAVEFORM_STORAGE_DIR: /data/waveforms
+      PDM_WAVEFORM_BAND_LOW: ${PDM_WAVEFORM_BAND_LOW:-1000}
+      PDM_WAVEFORM_BAND_HIGH: ${PDM_WAVEFORM_BAND_HIGH:-2500}
+      PDM_WAVEFORM_MAX_PREVIEW_POINTS: ${PDM_WAVEFORM_MAX_PREVIEW_POINTS:-16384}
+      PDM_MQTT_PHM_TOPIC: ${PDM_MQTT_PHM_TOPIC:-devices/+/+/telemetry}
+      PDM_MQTT_PHM_RAW_TOPIC: ${PDM_MQTT_PHM_RAW_TOPIC:-devices/+/+/raw_waveform}
+      PDM_MQTT_PHM21_TOPIC: ${PDM_MQTT_PHM21_TOPIC:-phm/telemetry/+/+}
+      PDM_MQTT_PHM_SNAPSHOT_TOPIC: ${PDM_MQTT_PHM_SNAPSHOT_TOPIC:-phm/snapshot/+/+}
+      PDM_MCSA_ALERTS_ENABLED: ${PDM_MCSA_ALERTS_ENABLED:-false}
+      PDM_MCSA_LOAD_MIN_PCT: ${PDM_MCSA_LOAD_MIN_PCT:-20}
+      PDM_MCSA_LOAD_MAX_PCT: ${PDM_MCSA_LOAD_MAX_PCT:-100}
+      PDM_MCSA_SLIP_MAX_PCT: ${PDM_MCSA_SLIP_MAX_PCT:-15}
+      PDM_MCSA_SIDEBAND_WARN_DB: ${PDM_MCSA_SIDEBAND_WARN_DB:-54}
+      PDM_MCSA_SIDEBAND_DANGER_DB: ${PDM_MCSA_SIDEBAND_DANGER_DB:-40}
+      PDM_SWITCHGEAR_ALERTS_ENABLED: ${PDM_SWITCHGEAR_ALERTS_ENABLED:-true}
+      PDM_SWITCHGEAR_DURATION_ATTENTION_RATIO: ${PDM_SWITCHGEAR_DURATION_ATTENTION_RATIO:-1.10}
+      PDM_SWITCHGEAR_DURATION_DANGER_RATIO: ${PDM_SWITCHGEAR_DURATION_DANGER_RATIO:-1.20}
+      PDM_SWITCHGEAR_CURRENT_ATTENTION_RATIO: ${PDM_SWITCHGEAR_CURRENT_ATTENTION_RATIO:-0.80}
+      PDM_SWITCHGEAR_STALE_AFTER: ${PDM_SWITCHGEAR_STALE_AFTER:-P30D}
+      PDM_SWITCHGEAR_SAMPLE_RETENTION: ${PDM_SWITCHGEAR_SAMPLE_RETENTION:-P365D}
+      PDM_SWITCHGEAR_DEGRADATION_WINDOW: ${PDM_SWITCHGEAR_DEGRADATION_WINDOW:-P30D}
+      PDM_SWITCHGEAR_MAX_PAST_DELAY: ${PDM_SWITCHGEAR_MAX_PAST_DELAY:-P30D}
+      PDM_CONTROL_VALVE_ALERTS_ENABLED: ${PDM_CONTROL_VALVE_ALERTS_ENABLED:-true}
+      PDM_CONTROL_VALVE_DEADBAND_ATTENTION_RATIO: ${PDM_CONTROL_VALVE_DEADBAND_ATTENTION_RATIO:-2.5}
+      PDM_CONTROL_VALVE_DEADBAND_DANGER_RATIO: ${PDM_CONTROL_VALVE_DEADBAND_DANGER_RATIO:-5.0}
+      PDM_CONTROL_VALVE_LEAK_ATTENTION_RMS: ${PDM_CONTROL_VALVE_LEAK_ATTENTION_RMS:-0.2}
+      PDM_CONTROL_VALVE_LEAK_DANGER_RMS: ${PDM_CONTROL_VALVE_LEAK_DANGER_RMS:-0.5}
+      PDM_CONTROL_VALVE_LEARNING_WINDOW: ${PDM_CONTROL_VALVE_LEARNING_WINDOW:-PT1H}
+      PDM_TELEMETRY_STALE_AFTER: ${PDM_TELEMETRY_STALE_AFTER:-PT5M}
+      PDM_HEALTH_DEGRADATION_WINDOW: ${PDM_HEALTH_DEGRADATION_WINDOW:-PT24H}
+      JAVA_TOOL_OPTIONS: --add-opens=java.base/java.nio=ALL-UNNAMED
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - waveform-data:/data/waveforms
+    depends_on:
+      postgres:
+        condition: service_healthy
+      influxdb3:
+        condition: service_started
+      mosquitto:
+        condition: service_started
+
+secrets:
+  admin-token:
+    file: ./secrets/influxdb3-admin-token.json
+
+volumes:
+  postgres-data:
+  influxdb-data:
+  mosquitto-data:
+  mosquitto-log:
+  waveform-data:

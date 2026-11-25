@@ -1,0 +1,121 @@
+server:
+  port: ${SERVER_PORT:8080}
+  forward-headers-strategy: framework
+  servlet:
+    session:
+      cookie:
+        http-only: true
+        same-site: lax
+        secure: ${PDM_COOKIE_SECURE:false}
+
+spring:
+  application:
+    name: pdm-mvp
+  datasource:
+    url: ${PDM_DB_URL:jdbc:postgresql://192.168.2.98:5432/pdm}
+    username: ${PDM_DB_USERNAME:hzyy}
+    password: ${PDM_DB_PASSWORD:jkyz8888}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+  flyway:
+    enabled: true
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+pdm:
+  telemetry:
+    stale-after: ${PDM_TELEMETRY_STALE_AFTER:PT5M}
+  health:
+    degradation-window: ${PDM_HEALTH_DEGRADATION_WINDOW:PT24H}
+  waveform:
+    storage-dir: ${PDM_WAVEFORM_STORAGE_DIR:./data/waveforms}
+    band-low: ${PDM_WAVEFORM_BAND_LOW:1000}
+    band-high: ${PDM_WAVEFORM_BAND_HIGH:2500}
+    max-preview-points: ${PDM_WAVEFORM_MAX_PREVIEW_POINTS:16384}
+  maintenance:
+    poll-interval: ${PDM_MAINTENANCE_POLL_INTERVAL:PT1M}
+  baseline:
+    learning-duration: ${PDM_BASELINE_LEARNING_DURATION:PT6M}
+  # 频谱基线带：1/6 倍频程参考带按自身窗口样本数冻结（波形快照稀疏，独立于标量基线的连续窗口判据）
+  spectrum-baseline:
+    minimum-samples: ${PDM_SPECTRUM_MIN_SAMPLES:30}
+    window: ${PDM_SPECTRUM_WINDOW:P30D}
+  notifications:
+    poll-interval: ${PDM_NOTIFICATION_POLL_INTERVAL:PT5S}
+    acknowledgement-sla: ${PDM_NOTIFICATION_ACKNOWLEDGEMENT_SLA:PT30M}
+    initial-backoff: ${PDM_NOTIFICATION_INITIAL_BACKOFF:PT30S}
+    max-backoff: ${PDM_NOTIFICATION_MAX_BACKOFF:PT1H}
+    max-attempts: ${PDM_NOTIFICATION_MAX_ATTEMPTS:8}
+  influx:
+    url: ${PDM_INFLUX_URL:http://192.168.2.98:8181}
+    token: ${PDM_INFLUX_TOKEN:apiv3_kc7H7UxNYgavkqvhqFrw9kVel_Zu9n563UyeyOpziWH17Z7iFtL14dXySHQmmnDWZyE31h0k1pcFEBW0EICfhw}
+    database: ${PDM_INFLUX_DATABASE:pdm-ts-data}
+    retention: ${PDM_INFLUX_RETENTION:365d}
+  mqtt:
+    enabled: ${PDM_MQTT_ENABLED:true}
+    url: ${PDM_MQTT_URL:tcp://localhost:1883}
+    client-id: ${PDM_MQTT_CLIENT_ID:pdm-platform}
+    topic: ${PDM_MQTT_TOPIC:pdm/v1/+/+/+/telemetry}
+    v2-topic: ${PDM_MQTT_V2_TOPIC:pdm/v2/+/+/+/telemetry}
+    phm-topic: ${PDM_MQTT_PHM_TOPIC:devices/+/+/telemetry}
+    phm-raw-topic: ${PDM_MQTT_PHM_RAW_TOPIC:devices/+/+/raw_waveform}
+    phm21-topic: ${PDM_MQTT_PHM21_TOPIC:phm/telemetry/+/+}
+    phm-snapshot-topic: ${PDM_MQTT_PHM_SNAPSHOT_TOPIC:phm/snapshot/+/+}
+    username: ${PDM_MQTT_USERNAME:}
+    password: ${PDM_MQTT_PASSWORD:}
+  mcsa:
+    # MCSA 告警阈值默认关闭：需离线比对与现场试点验收后开启
+    alerts-enabled: ${PDM_MCSA_ALERTS_ENABLED:false}
+    # 以下均为候选设计值（含附件假设的 54/40 dB 边频带间距），须结合目标电机与现场标注数据校准
+    load-min-pct: ${PDM_MCSA_LOAD_MIN_PCT:20}
+    load-max-pct: ${PDM_MCSA_LOAD_MAX_PCT:100}
+    slip-max-pct: ${PDM_MCSA_SLIP_MAX_PCT:15}
+    sideband-warn-db: ${PDM_MCSA_SIDEBAND_WARN_DB:54}
+    sideband-danger-db: ${PDM_MCSA_SIDEBAND_DANGER_DB:40}
+  switchgear:
+    # 高压断路器机械特性（设计说明书 §4.3）：动作型事件模态，默认启用告警，可用开关关闭
+    alerts-enabled: ${PDM_SWITCHGEAR_ALERTS_ENABLED:true}
+    duration-attention-ratio: ${PDM_SWITCHGEAR_DURATION_ATTENTION_RATIO:1.10}
+    duration-danger-ratio: ${PDM_SWITCHGEAR_DURATION_DANGER_RATIO:1.20}
+    current-attention-ratio: ${PDM_SWITCHGEAR_CURRENT_ATTENTION_RATIO:0.80}
+    stale-after: ${PDM_SWITCHGEAR_STALE_AFTER:P30D}
+    sample-retention: ${PDM_SWITCHGEAR_SAMPLE_RETENTION:P365D}
+    degradation-window: ${PDM_SWITCHGEAR_DEGRADATION_WINDOW:P30D}
+    max-past-delay: ${PDM_SWITCHGEAR_MAX_PAST_DELAY:P30D}
+  control-valve:
+    # 工艺控制调节阀（设计说明书 §4.3）：连续低频过程量；回环死区按分级倍率评分，默认启用告警
+    alerts-enabled: ${PDM_CONTROL_VALVE_ALERTS_ENABLED:true}
+    deadband-attention-ratio: ${PDM_CONTROL_VALVE_DEADBAND_ATTENTION_RATIO:2.5}
+    deadband-danger-ratio: ${PDM_CONTROL_VALVE_DEADBAND_DANGER_RATIO:5.0}
+    leak-attention-rms: ${PDM_CONTROL_VALVE_LEAK_ATTENTION_RMS:0.2}
+    leak-danger-rms: ${PDM_CONTROL_VALVE_LEAK_DANGER_RMS:0.5}
+    learning-window: ${PDM_CONTROL_VALVE_LEARNING_WINDOW:PT1H}
+  bootstrap:
+    admin-username: ${PDM_ADMIN_USERNAME:}
+    admin-password: ${PDM_ADMIN_PASSWORD:}
+  webhook:
+    url: ${PDM_ALERT_WEBHOOK_URL:}
+    enabled: ${PDM_ALERT_WEBHOOK_ENABLED:false}
+  demo-data:
+    enabled: ${PDM_DEMO_DATA:false}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+logging:
+  level:
+    com.pdm.mvp: INFO

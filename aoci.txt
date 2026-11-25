@@ -1,0 +1,7 @@
+#AOCI-ROOT-MANIFEST: 1
+#Format-Version: cognition-volumes/v1
+#Locale: zh-CN
+#Project: 旋转设备多模态预测性维护平台：Spring Boot 4 单体内嵌 Vue3 SPA；MQTT/REST 遥测经统一契约进入共享内核与模态插件（振动/MCSA/断路器/调节阀），自学习基线+HI短板评分驱动设备级告警、工单与通知闭环；PostgreSQL事务权威、InfluxDB 3时序、波形归档本地卷。
+#Global-Invariants: 平台是唯一评分与告警决策方，模拟器只上报特征不产生HI；锁定基线不自动滑动、重置须两步确认且频谱带同路径清空；设备类型规则只替换诊断快照、永不遮蔽插件硬限诊断；MCSA确定性告警默认关闭，54/40dB等阈值均为待现场校准候选值；振动旧路径行为为兼容红线；非有限值、劣质质量码、停机与超时遥测不进入学习与告警；写操作按ADMIN/OPERATOR角色门控且需CSRF；趋势输出为启发式估计，不作未经验证的剩余寿命承诺。
+#Volume: id=meta kind=meta path=aoci.meta.txt format=meta-v1 depends=- state=enabled
+#Volume: id=code kind=code path=aoci.code.txt format=object-fras-v2 depends=meta state=enabled

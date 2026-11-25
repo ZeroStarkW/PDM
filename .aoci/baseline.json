@@ -1,0 +1,2007 @@
+{
+  "version": 1,
+  "created_at": "2026-11-24T17:21:25Z",
+  "updated_at": "2026-11-25T06:26:16Z",
+  "files": {
+    ".env.example": {
+      "role": "index",
+      "sha256": "80b53150e54e55c27a68040b960b4a78dc879c840b3318c8b7576505263ec0c1",
+      "size": 3478,
+      "normalized_sha256": "80b53150e54e55c27a68040b960b4a78dc879c840b3318c8b7576505263ec0c1"
+    },
+    ".gitattributes": {
+      "role": "index",
+      "sha256": "21fa16a2122e2b0360b47502c577428b645437e08e9e87ffba661f84853cb476",
+      "size": 291,
+      "normalized_sha256": "21fa16a2122e2b0360b47502c577428b645437e08e9e87ffba661f84853cb476"
+    },
+    ".gitignore": {
+      "role": "index",
+      "sha256": "e8eae0f29fa3a45514117d75ca6af101201f7079bc5e0e931aba52d7812b4038",
+      "size": 193,
+      "normalized_sha256": "e8eae0f29fa3a45514117d75ca6af101201f7079bc5e0e931aba52d7812b4038"
+    },
+    ".superpowers/sdd/2026-11-19-configurable-baseline-learning-duration/frontend-verification/package-lock.json": {
+      "role": "observe",
+      "sha256": "53d3f1704bcbb121fa35209153b553bed453ca1c8a782522b92dc930a79cde5b",
+      "size": 58277,
+      "normalized_sha256": "53d3f1704bcbb121fa35209153b553bed453ca1c8a782522b92dc930a79cde5b"
+    },
+    ".zcode/plans/plan-sess_5475a6db-b45d-4fda-a11f-97be65dad108.md": {
+      "role": "index",
+      "sha256": "8d98c21892aeacd0d36dd183dee1255a4dfe00a3dafdba39c5234dc7c9396082",
+      "size": 703,
+      "normalized_sha256": "8d98c21892aeacd0d36dd183dee1255a4dfe00a3dafdba39c5234dc7c9396082"
+    },
+    ".zcode/plans/plan-sess_5f639c04-275f-4fcc-bcdf-0806ebb395fc.md": {
+      "role": "index",
+      "sha256": "b4fa962941babe22f17def54d59da517fb440bc3bb63ff8b57e903457a82adb8",
+      "size": 6694,
+      "normalized_sha256": "b4fa962941babe22f17def54d59da517fb440bc3bb63ff8b57e903457a82adb8"
+    },
+    ".zcode/plans/plan-sess_964f5d43-b8c8-42aa-9451-cc563b8c916c.md": {
+      "role": "index",
+      "sha256": "22743510383fe8a1887159a11beca64651cd62be5c27c030837ba2c03142d657",
+      "size": 12983,
+      "normalized_sha256": "22743510383fe8a1887159a11beca64651cd62be5c27c030837ba2c03142d657"
+    },
+    "AGENTS.md": {
+      "role": "index",
+      "sha256": "3ad230cb8eec803c38bb6726f3d5acb938703339dc76f67a87951c3a85edf824",
+      "size": 15089,
+      "normalized_sha256": "3ad230cb8eec803c38bb6726f3d5acb938703339dc76f67a87951c3a85edf824"
+    },
+    "Dockerfile": {
+      "role": "index",
+      "sha256": "6d42b95e07f46127226178a463a273ac49c21cdadb0afc0a309722995b273c80",
+      "size": 397,
+      "normalized_sha256": "6d42b95e07f46127226178a463a273ac49c21cdadb0afc0a309722995b273c80"
+    },
+    "README.md": {
+      "role": "index",
+      "sha256": "e97640a88e9f6aaee2b841b9a349243dc4b2f1620f24c4afc75aa3639a7a4466",
+      "size": 31556,
+      "normalized_sha256": "e97640a88e9f6aaee2b841b9a349243dc4b2f1620f24c4afc75aa3639a7a4466"
+    },
+    "aoci.code.txt": {
+      "role": "index",
+      "sha256": "1c068b445318814dee223237c11ef176cee0badd92955bf2c04b35bcdffad490",
+      "size": 156158,
+      "normalized_sha256": "1c068b445318814dee223237c11ef176cee0badd92955bf2c04b35bcdffad490"
+    },
+    "aoci.meta.txt": {
+      "role": "index",
+      "sha256": "5ccd06dd2198435423141174e4f3eaed7e7645644070e0b5cc2e20dbc889172a",
+      "size": 2187,
+      "normalized_sha256": "5ccd06dd2198435423141174e4f3eaed7e7645644070e0b5cc2e20dbc889172a"
+    },
+    "aoci.txt": {
+      "role": "index",
+      "sha256": "dfd537e63c39df8d36e30c05eb07a90f9cb61d26b666d8bc8a5896d3e58398ac",
+      "size": 1186,
+      "normalized_sha256": "dfd537e63c39df8d36e30c05eb07a90f9cb61d26b666d8bc8a5896d3e58398ac"
+    },
+    "compose.yaml": {
+      "role": "index",
+      "sha256": "c8ce95370c198aa5d1f430a5318a349658dfca7f81043c86213e761aa6a39338",
+      "size": 5628,
+      "normalized_sha256": "c8ce95370c198aa5d1f430a5318a349658dfca7f81043c86213e761aa6a39338"
+    },
+    "config/mosquitto.conf": {
+      "role": "index",
+      "sha256": "8689dedc6c2109eeb97514b2eef629ac6d0dff0d7d85670d7459fa53e85600a6",
+      "size": 98,
+      "normalized_sha256": "8689dedc6c2109eeb97514b2eef629ac6d0dff0d7d85670d7459fa53e85600a6"
+    },
+    "docs/api/telemetry-samples.md": {
+      "role": "index",
+      "sha256": "ea2c3cbd3ca616fb849f691a99352c37eeea8f236d94ed31c10c5228225c2d63",
+      "size": 6279,
+      "normalized_sha256": "ea2c3cbd3ca616fb849f691a99352c37eeea8f236d94ed31c10c5228225c2d63"
+    },
+    "docs/superpowers/plans/2026-11-19-configurable-baseline-learning-duration.md": {
+      "role": "index",
+      "sha256": "66f2b4d7a485b71cf34a8be921d338257118b09b808365e57d0090f4e1daf36b",
+      "size": 4421,
+      "normalized_sha256": "66f2b4d7a485b71cf34a8be921d338257118b09b808365e57d0090f4e1daf36b"
+    },
+    "docs/superpowers/plans/2026-11-19-idempotent-demo-asset-seeding.md": {
+      "role": "index",
+      "sha256": "67f6e9120904d5b24d7c445e24c0aad3313608eee90b5bf38000023216a32816",
+      "size": 2168,
+      "normalized_sha256": "67f6e9120904d5b24d7c445e24c0aad3313608eee90b5bf38000023216a32816"
+    },
+    "docs/superpowers/plans/2026-11-19-pdm-core-diagnostics.md": {
+      "role": "index",
+      "sha256": "0de52befd556c2559fdb88b63ea280aa88516c06d3cc90773179315ad9c1dcbe",
+      "size": 5630,
+      "normalized_sha256": "0de52befd556c2559fdb88b63ea280aa88516c06d3cc90773179315ad9c1dcbe"
+    },
+    "docs/superpowers/plans/2026-11-19-pdm-mvp-implementation.md": {
+      "role": "index",
+      "sha256": "b15e506195f96fd30b058e8f4d2bc674531ae54e5894e1c3446e6348bee83d95",
+      "size": 15660,
+      "normalized_sha256": "b15e506195f96fd30b058e8f4d2bc674531ae54e5894e1c3446e6348bee83d95"
+    },
+    "docs/superpowers/plans/2026-11-20-device-centric-health.md": {
+      "role": "index",
+      "sha256": "b2defc40e343009b6c4de283598b7f4732e332fc9bf29576e3444557d1b28d90",
+      "size": 3820,
+      "normalized_sha256": "b2defc40e343009b6c4de283598b7f4732e332fc9bf29576e3444557d1b28d90"
+    },
+    "docs/superpowers/plans/2026-11-23-multimodal-foundation-mcsa.md": {
+      "role": "index",
+      "sha256": "e32fff1d745bd0207d4cf9f5dc9211f3f0d86dd6be8cc72b2f42dae9f7e98bf6",
+      "size": 2999,
+      "normalized_sha256": "e32fff1d745bd0207d4cf9f5dc9211f3f0d86dd6be8cc72b2f42dae9f7e98bf6"
+    },
+    "docs/superpowers/plans/2026-11-23-pdm-completeness-upgrades.md": {
+      "role": "index",
+      "sha256": "5b5206e664e3947fba71e2cabcb4479165bc23cba59c4b31f247c920a0874b82",
+      "size": 5455,
+      "normalized_sha256": "5b5206e664e3947fba71e2cabcb4479165bc23cba59c4b31f247c920a0874b82"
+    },
+    "docs/superpowers/plans/2026-11-24-multimodal-diagnostic-rules.md": {
+      "role": "index",
+      "sha256": "014dc7da86b5c6983665660ee4d51578b40dacb2229c75943bf8f3cdfdcaf22f",
+      "size": 6057,
+      "normalized_sha256": "014dc7da86b5c6983665660ee4d51578b40dacb2229c75943bf8f3cdfdcaf22f"
+    },
+    "docs/superpowers/plans/2026-11-24-multimodal-simulator.md": {
+      "role": "index",
+      "sha256": "2db4767737e651d82269ae4e92ea8a124cbb87f216dc0d2e732c9ea602a6c71d",
+      "size": 5692,
+      "normalized_sha256": "2db4767737e651d82269ae4e92ea8a124cbb87f216dc0d2e732c9ea602a6c71d"
+    },
+    "docs/superpowers/specs/2026-11-19-configurable-baseline-learning-duration-design.md": {
+      "role": "index",
+      "sha256": "8a456937494efd8d9d0dec0ec0b7a27dc99bb2099e392a7f18007d3a60228dd1",
+      "size": 2449,
+      "normalized_sha256": "8a456937494efd8d9d0dec0ec0b7a27dc99bb2099e392a7f18007d3a60228dd1"
+    },
+    "docs/superpowers/specs/2026-11-19-idempotent-demo-asset-seeding-design.md": {
+      "role": "index",
+      "sha256": "d54b04d273dcfc4201147ae739fc06ff6ff845898683c876a6c466630071a35c",
+      "size": 1468,
+      "normalized_sha256": "d54b04d273dcfc4201147ae739fc06ff6ff845898683c876a6c466630071a35c"
+    },
+    "docs/superpowers/specs/2026-11-19-pdm-core-diagnostics-design.md": {
+      "role": "index",
+      "sha256": "fd5d77c5dca97aac9a32ad1f51dc45c80122496edc056114a9b1639f65fc9248",
+      "size": 4141,
+      "normalized_sha256": "fd5d77c5dca97aac9a32ad1f51dc45c80122496edc056114a9b1639f65fc9248"
+    },
+    "docs/superpowers/specs/2026-11-19-pdm-mvp-design.md": {
+      "role": "index",
+      "sha256": "0f41c1ec750c38ff0c8010d66258a804c6c34642fde86cc09d5a63d440f45c7a",
+      "size": 10012,
+      "normalized_sha256": "0f41c1ec750c38ff0c8010d66258a804c6c34642fde86cc09d5a63d440f45c7a"
+    },
+    "docs/superpowers/specs/2026-11-20-device-centric-health-design.md": {
+      "role": "index",
+      "sha256": "460f00c1252211165c41d61c307797817182249a0ee812edf4a1b91e8fe98051",
+      "size": 3183,
+      "normalized_sha256": "460f00c1252211165c41d61c307797817182249a0ee812edf4a1b91e8fe98051"
+    },
+    "docs/superpowers/specs/2026-11-23-multimodal-foundation-mcsa-design.md": {
+      "role": "index",
+      "sha256": "16e1bf22c3a734feca568d0b2f9af24461665168e7ec1b285345a3ffb715f2f5",
+      "size": 3822,
+      "normalized_sha256": "16e1bf22c3a734feca568d0b2f9af24461665168e7ec1b285345a3ffb715f2f5"
+    },
+    "docs/superpowers/specs/2026-11-23-pdm-completeness-upgrades-design.md": {
+      "role": "index",
+      "sha256": "3d944875326995739bf380ad15efbcf0fffd8a0a5898d7f0d621496ec3758658",
+      "size": 6776,
+      "normalized_sha256": "3d944875326995739bf380ad15efbcf0fffd8a0a5898d7f0d621496ec3758658"
+    },
+    "docs/superpowers/specs/2026-11-24-multimodal-diagnostic-rules-design.md": {
+      "role": "index",
+      "sha256": "fc523251a1181ff2bd959545fec924f2d38f65dc588126c1f0b62ee562df6923",
+      "size": 4923,
+      "normalized_sha256": "fc523251a1181ff2bd959545fec924f2d38f65dc588126c1f0b62ee562df6923"
+    },
+    "docs/superpowers/specs/2026-11-24-multimodal-simulator-design.md": {
+      "role": "index",
+      "sha256": "c6b7bd9a523ae92ea0a3480858935f893fbe40e76c94edf5b8707b2a20f88845",
+      "size": 6333,
+      "normalized_sha256": "c6b7bd9a523ae92ea0a3480858935f893fbe40e76c94edf5b8707b2a20f88845"
+    },
+    "frontend/index.html": {
+      "role": "index",
+      "sha256": "1050d12043f8e03d38849bcc898f89bc63d40339eed0f77471737563f9c44800",
+      "size": 393,
+      "normalized_sha256": "1050d12043f8e03d38849bcc898f89bc63d40339eed0f77471737563f9c44800"
+    },
+    "frontend/package-lock.json": {
+      "role": "observe",
+      "sha256": "53d3f1704bcbb121fa35209153b553bed453ca1c8a782522b92dc930a79cde5b",
+      "size": 58277,
+      "normalized_sha256": "53d3f1704bcbb121fa35209153b553bed453ca1c8a782522b92dc930a79cde5b"
+    },
+    "frontend/package.json": {
+      "role": "index",
+      "sha256": "a2abd8d3374c67d03a33cdfca9ea57275b286db283d5fe602a5e80b0ea7a8339",
+      "size": 525,
+      "normalized_sha256": "a2abd8d3374c67d03a33cdfca9ea57275b286db283d5fe602a5e80b0ea7a8339"
+    },
+    "frontend/src/App.vue": {
+      "role": "index",
+      "sha256": "5db64736e5c033e34b881f859f29f3dabdd89b1d97c6049809034f1a065ce753",
+      "size": 36,
+      "normalized_sha256": "5db64736e5c033e34b881f859f29f3dabdd89b1d97c6049809034f1a065ce753"
+    },
+    "frontend/src/api/http.ts": {
+      "role": "index",
+      "sha256": "e3e3ce16cb0681a503e12d2d14deb7e764f5b6e922e8656312111b00335b55a8",
+      "size": 3983,
+      "normalized_sha256": "e3e3ce16cb0681a503e12d2d14deb7e764f5b6e922e8656312111b00335b55a8"
+    },
+    "frontend/src/api/pdm.ts": {
+      "role": "index",
+      "sha256": "0b46be800d78fd87258b5757bc707ab6e0f3fee4b0fe8b84ab97b26a10aff158",
+      "size": 11711,
+      "normalized_sha256": "0b46be800d78fd87258b5757bc707ab6e0f3fee4b0fe8b84ab97b26a10aff158"
+    },
+    "frontend/src/api/types.ts": {
+      "role": "index",
+      "sha256": "02252be0e73579a50c68f07fecde344d05123a43100d8868127b9101b62a4c57",
+      "size": 18101,
+      "normalized_sha256": "02252be0e73579a50c68f07fecde344d05123a43100d8868127b9101b62a4c57"
+    },
+    "frontend/src/charts.ts": {
+      "role": "index",
+      "sha256": "c911b89e6a1c29857888a7d60fa05f68c216758478009496cd02bb58760f2aa8",
+      "size": 658,
+      "normalized_sha256": "c911b89e6a1c29857888a7d60fa05f68c216758478009496cd02bb58760f2aa8"
+    },
+    "frontend/src/components/DiagnosticRuleEditor.vue": {
+      "role": "index",
+      "sha256": "f8994891012d94025e7f5afa65c1bd29ce0b6889c8085d36a45d9365c566601c",
+      "size": 11232,
+      "normalized_sha256": "f8994891012d94025e7f5afa65c1bd29ce0b6889c8085d36a45d9365c566601c"
+    },
+    "frontend/src/components/NotificationDeliveries.vue": {
+      "role": "index",
+      "sha256": "f959af9ef83971696c5ac3d370d96eecae58039da5041a177919095c886ae73f",
+      "size": 1433,
+      "normalized_sha256": "f959af9ef83971696c5ac3d370d96eecae58039da5041a177919095c886ae73f"
+    },
+    "frontend/src/components/workbenches/ChannelTrendChart.vue": {
+      "role": "index",
+      "sha256": "2d940fb9127e4a1c77d413891dde0e42a2b2a4f19baf3ed25301885e1eafa87a",
+      "size": 4088,
+      "normalized_sha256": "2d940fb9127e4a1c77d413891dde0e42a2b2a4f19baf3ed25301885e1eafa87a"
+    },
+    "frontend/src/components/workbenches/ControlValveHysteresisWorkbench.vue": {
+      "role": "index",
+      "sha256": "7c14bc03d17f4824f1968355fffd2612e9a65c88a36cdf9700711f05118a74ad",
+      "size": 17000,
+      "normalized_sha256": "7c14bc03d17f4824f1968355fffd2612e9a65c88a36cdf9700711f05118a74ad"
+    },
+    "frontend/src/components/workbenches/GenericMetricsWorkbench.vue": {
+      "role": "index",
+      "sha256": "733549589e611437ec8370af132d6194f7efd1748fd435f17f0b65c8420b98e2",
+      "size": 6985,
+      "normalized_sha256": "733549589e611437ec8370af132d6194f7efd1748fd435f17f0b65c8420b98e2"
+    },
+    "frontend/src/components/workbenches/RotatingVibrationWorkbench.vue": {
+      "role": "index",
+      "sha256": "ae2afd9fcc74f69c69f2c5af7106b29c7b793dae7a3dc5b900dc85062b56de8f",
+      "size": 32009,
+      "normalized_sha256": "ae2afd9fcc74f69c69f2c5af7106b29c7b793dae7a3dc5b900dc85062b56de8f"
+    },
+    "frontend/src/components/workbenches/SwitchgearStrokeWorkbench.vue": {
+      "role": "index",
+      "sha256": "510587d9fb1f95dcfa598fb5bedebea84cfbb81724ab0ac79523593160be7f2e",
+      "size": 19147,
+      "normalized_sha256": "510587d9fb1f95dcfa598fb5bedebea84cfbb81724ab0ac79523593160be7f2e"
+    },
+    "frontend/src/components/workbenches/shared.ts": {
+      "role": "index",
+      "sha256": "02cbfe1c27567820afdddd5b24ccfd8edd8073fff298e68be097d02bf3aa5691",
+      "size": 11032,
+      "normalized_sha256": "02cbfe1c27567820afdddd5b24ccfd8edd8073fff298e68be097d02bf3aa5691"
+    },
+    "frontend/src/composables/ui.ts": {
+      "role": "index",
+      "sha256": "1d975916769bce193fa8736b6c4cd39b6e100f53a946a988fd0060107fa37569",
+      "size": 3251,
+      "normalized_sha256": "1d975916769bce193fa8736b6c4cd39b6e100f53a946a988fd0060107fa37569"
+    },
+    "frontend/src/diagnostics.ts": {
+      "role": "index",
+      "sha256": "46df7fb73e6f518bbb3d229b28c09475a9241c37514e4e8278ed672f71228e96",
+      "size": 3315,
+      "normalized_sha256": "46df7fb73e6f518bbb3d229b28c09475a9241c37514e4e8278ed672f71228e96"
+    },
+    "frontend/src/layouts/AppLayout.vue": {
+      "role": "index",
+      "sha256": "2f1ffc8a7691ac07d594c0e1534276dfdb34fdc3fd0a0fdb96695a94b222dba5",
+      "size": 8161,
+      "normalized_sha256": "2f1ffc8a7691ac07d594c0e1534276dfdb34fdc3fd0a0fdb96695a94b222dba5"
+    },
+    "frontend/src/main.ts": {
+      "role": "index",
+      "sha256": "cc38e61d8caab7d21cea623dd9ee15b192a4dad24eed07542821763e9dde89ef",
+      "size": 208,
+      "normalized_sha256": "cc38e61d8caab7d21cea623dd9ee15b192a4dad24eed07542821763e9dde89ef"
+    },
+    "frontend/src/modality.ts": {
+      "role": "index",
+      "sha256": "baf05b56a2e63289887b9915033bbf67afb7736c6b5090f87918eb71cb0436de",
+      "size": 17527,
+      "normalized_sha256": "baf05b56a2e63289887b9915033bbf67afb7736c6b5090f87918eb71cb0436de"
+    },
+    "frontend/src/router/index.ts": {
+      "role": "index",
+      "sha256": "abdd2aad7e47da288cd503659ae798d88bd0c078f6d87dae759def5bf3e7c103",
+      "size": 1575,
+      "normalized_sha256": "abdd2aad7e47da288cd503659ae798d88bd0c078f6d87dae759def5bf3e7c103"
+    },
+    "frontend/src/stores/auth.ts": {
+      "role": "index",
+      "sha256": "dcc0f514f025ec630303519c489499976a2aa44a6690f3580b62e020b322bb79",
+      "size": 933,
+      "normalized_sha256": "dcc0f514f025ec630303519c489499976a2aa44a6690f3580b62e020b322bb79"
+    },
+    "frontend/src/style.css": {
+      "role": "index",
+      "sha256": "73676d94381b330d521719fb97917fe4cf7e144356b9efb4bafe378743e53b99",
+      "size": 29620,
+      "normalized_sha256": "73676d94381b330d521719fb97917fe4cf7e144356b9efb4bafe378743e53b99"
+    },
+    "frontend/src/telemetry-status.ts": {
+      "role": "index",
+      "sha256": "e73b4f5fdfaf558669869da7eb7f070662f00e56ce893ab0385b8ac76b7c7a9d",
+      "size": 4949,
+      "normalized_sha256": "e73b4f5fdfaf558669869da7eb7f070662f00e56ce893ab0385b8ac76b7c7a9d"
+    },
+    "frontend/src/views/AlertsView.vue": {
+      "role": "index",
+      "sha256": "50c935cd74771105900effc0d0f1621a67fc7fa69fc06a9f4f3701af9afae778",
+      "size": 15599,
+      "normalized_sha256": "50c935cd74771105900effc0d0f1621a67fc7fa69fc06a9f4f3701af9afae778"
+    },
+    "frontend/src/views/BaselineView.vue": {
+      "role": "index",
+      "sha256": "539bd05a786f089ccf94b74b0bd002f8c1328604fda032344ed8ba47bb9fa3db",
+      "size": 15404,
+      "normalized_sha256": "539bd05a786f089ccf94b74b0bd002f8c1328604fda032344ed8ba47bb9fa3db"
+    },
+    "frontend/src/views/DashboardView.vue": {
+      "role": "index",
+      "sha256": "929cc7e219ff7c8db3aa0d606e9aa197969498f74d35264e66b4b9c988b9f0de",
+      "size": 15163,
+      "normalized_sha256": "929cc7e219ff7c8db3aa0d606e9aa197969498f74d35264e66b4b9c988b9f0de"
+    },
+    "frontend/src/views/DeviceDetailView.vue": {
+      "role": "index",
+      "sha256": "ba6bb974b7f12105ec6d2ffde0206fccde6c12f1e4f122ca966edc6ee6ee7dd5",
+      "size": 11351,
+      "normalized_sha256": "ba6bb974b7f12105ec6d2ffde0206fccde6c12f1e4f122ca966edc6ee6ee7dd5"
+    },
+    "frontend/src/views/DevicesView.vue": {
+      "role": "index",
+      "sha256": "041202efd54f07aaed1f8d80ee3de2322cbf57446d10196300314312e2e02d45",
+      "size": 36726,
+      "normalized_sha256": "041202efd54f07aaed1f8d80ee3de2322cbf57446d10196300314312e2e02d45"
+    },
+    "frontend/src/views/DiagnosticRulesView.vue": {
+      "role": "index",
+      "sha256": "aafdb47dc4855b013fd4a5f46e4741a20d768b64d1ac160d5465e0408a537a80",
+      "size": 6613,
+      "normalized_sha256": "aafdb47dc4855b013fd4a5f46e4741a20d768b64d1ac160d5465e0408a537a80"
+    },
+    "frontend/src/views/LoginView.vue": {
+      "role": "index",
+      "sha256": "0aa0b11ba1245b1eb26d0db7408c7830e4c87f06d9d2116f84f31a98d05ccdbd",
+      "size": 2425,
+      "normalized_sha256": "0aa0b11ba1245b1eb26d0db7408c7830e4c87f06d9d2116f84f31a98d05ccdbd"
+    },
+    "frontend/src/views/MaintenanceView.vue": {
+      "role": "index",
+      "sha256": "7d37405125a422e3580581c7ade940218e730ab172b7bab39d1316c9aa1836bf",
+      "size": 18889,
+      "normalized_sha256": "7d37405125a422e3580581c7ade940218e730ab172b7bab39d1316c9aa1836bf"
+    },
+    "frontend/src/views/PointDetailView.vue": {
+      "role": "index",
+      "sha256": "519fcfaec308ab98adb8b1df509657199e33b661b5576e02b824570a98b257e6",
+      "size": 20188,
+      "normalized_sha256": "519fcfaec308ab98adb8b1df509657199e33b661b5576e02b824570a98b257e6"
+    },
+    "frontend/src/views/WorkOrdersView.vue": {
+      "role": "index",
+      "sha256": "aca3129b77bfadd29932d3d4d7734a2633eba57fd9fc9faa396db2fae391c5d6",
+      "size": 6765,
+      "normalized_sha256": "aca3129b77bfadd29932d3d4d7734a2633eba57fd9fc9faa396db2fae391c5d6"
+    },
+    "frontend/src/views/WorkbenchView.vue": {
+      "role": "index",
+      "sha256": "cb7bba9ad20f61296a18191a9b5f32968c284e7e68a58ce6ec0b95dd7051ceee",
+      "size": 38046,
+      "normalized_sha256": "cb7bba9ad20f61296a18191a9b5f32968c284e7e68a58ce6ec0b95dd7051ceee"
+    },
+    "frontend/tsconfig.app.json": {
+      "role": "index",
+      "sha256": "10da018a693c7e5fc5ea6e1936d5e0680093ea58f1873a731992448222afac31",
+      "size": 680,
+      "normalized_sha256": "10da018a693c7e5fc5ea6e1936d5e0680093ea58f1873a731992448222afac31"
+    },
+    "frontend/tsconfig.json": {
+      "role": "index",
+      "sha256": "770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808",
+      "size": 119,
+      "normalized_sha256": "770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808"
+    },
+    "frontend/tsconfig.node.json": {
+      "role": "index",
+      "sha256": "48d9c6b9b13d732701592ea44e16fc7bc953376e79820e3d18e79345816884af",
+      "size": 436,
+      "normalized_sha256": "48d9c6b9b13d732701592ea44e16fc7bc953376e79820e3d18e79345816884af"
+    },
+    "frontend/vite.config.ts": {
+      "role": "index",
+      "sha256": "a4f28d600ae36bd3f3b4a963e0d230f35d571b09aa4d03db280b722a503b0a41",
+      "size": 552,
+      "normalized_sha256": "a4f28d600ae36bd3f3b4a963e0d230f35d571b09aa4d03db280b722a503b0a41"
+    },
+    "pdm_mvp.md": {
+      "role": "index",
+      "sha256": "ba26d06cb19e476e114d3944556111ff310da604f8e9dd66f4dc54a59e2c752f",
+      "size": 45819,
+      "normalized_sha256": "ba26d06cb19e476e114d3944556111ff310da604f8e9dd66f4dc54a59e2c752f"
+    },
+    "pom.xml": {
+      "role": "index",
+      "sha256": "0abb9e1daf9a3c42ab9526760749b22a2c10fe3884986c4917fb376d5f13cc44",
+      "size": 4922,
+      "normalized_sha256": "0abb9e1daf9a3c42ab9526760749b22a2c10fe3884986c4917fb376d5f13cc44"
+    },
+    "scripts/Publish-MultimodalSamples.ps1": {
+      "role": "index",
+      "sha256": "5cf66aaca4c61071c6aa6563a816b487ea397a4329caf6e13e79c67eaf812509",
+      "size": 6571,
+      "normalized_sha256": "5cf66aaca4c61071c6aa6563a816b487ea397a4329caf6e13e79c67eaf812509"
+    },
+    "scripts/Setup-Local.ps1": {
+      "role": "index",
+      "sha256": "8c6bbd6167b818e9442df039efeadddb90136d49efb88f7c068caa399e87b520",
+      "size": 3414,
+      "normalized_sha256": "8c6bbd6167b818e9442df039efeadddb90136d49efb88f7c068caa399e87b520"
+    },
+    "src/main/java/com/pdm/mvp/PdmApplication.java": {
+      "role": "index",
+      "sha256": "aeb9f2bcd1b1286f9e30c570c2e911a33e0999a744b5d2c9b72639a7e514ef37",
+      "size": 308,
+      "normalized_sha256": "aeb9f2bcd1b1286f9e30c570c2e911a33e0999a744b5d2c9b72639a7e514ef37"
+    },
+    "src/main/java/com/pdm/mvp/alert/AlertController.java": {
+      "role": "index",
+      "sha256": "abda34b63471208fa23587a391057c12b6d6dc7746d00936aa9f1452453eb849",
+      "size": 1564,
+      "normalized_sha256": "abda34b63471208fa23587a391057c12b6d6dc7746d00936aa9f1452453eb849"
+    },
+    "src/main/java/com/pdm/mvp/alert/AlertEntity.java": {
+      "role": "index",
+      "sha256": "7d5bee8127395e5d2e6ac6dfd53a4a4bed8b16beeec8db2a1c1274c646e9ebbd",
+      "size": 8501,
+      "normalized_sha256": "7d5bee8127395e5d2e6ac6dfd53a4a4bed8b16beeec8db2a1c1274c646e9ebbd"
+    },
+    "src/main/java/com/pdm/mvp/alert/AlertRepository.java": {
+      "role": "index",
+      "sha256": "244abaaab3796e9311e3120d942920b3c123cab10742ed84dc7ee15ec260f964",
+      "size": 2499,
+      "normalized_sha256": "244abaaab3796e9311e3120d942920b3c123cab10742ed84dc7ee15ec260f964"
+    },
+    "src/main/java/com/pdm/mvp/alert/AlertService.java": {
+      "role": "index",
+      "sha256": "0984eee39e3c39985b0fb32cd098ae09a70f14ee08752b058e95056884489fb6",
+      "size": 11215,
+      "normalized_sha256": "a5b669b0a5e231a57308f39be9f589e5ec09715697e0c632498469846ca9e261"
+    },
+    "src/main/java/com/pdm/mvp/alert/DeviceHealthWindow.java": {
+      "role": "index",
+      "sha256": "f16d6a2144215a2f994655e3c14325c9d3c9b6de7e2b9ccf4c641d6348691ba8",
+      "size": 2092,
+      "normalized_sha256": "f16d6a2144215a2f994655e3c14325c9d3c9b6de7e2b9ccf4c641d6348691ba8"
+    },
+    "src/main/java/com/pdm/mvp/alert/NotificationController.java": {
+      "role": "index",
+      "sha256": "52466d649c74dc918e128f4c9de2d3c146e65542f1f9af5c9bb04227bef74b5c",
+      "size": 1139,
+      "normalized_sha256": "52466d649c74dc918e128f4c9de2d3c146e65542f1f9af5c9bb04227bef74b5c"
+    },
+    "src/main/java/com/pdm/mvp/alert/NotificationDelivery.java": {
+      "role": "index",
+      "sha256": "b82bca3bf96017d0e500233a3c1fad89e0e9c104ae5b4fe963714f80412bf975",
+      "size": 287,
+      "normalized_sha256": "b82bca3bf96017d0e500233a3c1fad89e0e9c104ae5b4fe963714f80412bf975"
+    },
+    "src/main/java/com/pdm/mvp/alert/NotificationEvent.java": {
+      "role": "index",
+      "sha256": "3e2171214904dcca766110aaa1799597e94cba78850e1566f41016fdd3a2f992",
+      "size": 2513,
+      "normalized_sha256": "3e2171214904dcca766110aaa1799597e94cba78850e1566f41016fdd3a2f992"
+    },
+    "src/main/java/com/pdm/mvp/alert/NotificationRepository.java": {
+      "role": "index",
+      "sha256": "3f9d77ef23fe2616ff408f967f063451eae7d3522742eb1e0d2e76034884327b",
+      "size": 3167,
+      "normalized_sha256": "3f9d77ef23fe2616ff408f967f063451eae7d3522742eb1e0d2e76034884327b"
+    },
+    "src/main/java/com/pdm/mvp/alert/NotificationService.java": {
+      "role": "index",
+      "sha256": "37ace8ed32eeabdaf8505d65f41d7bf44c799d441254200390241d4a67e1d5be",
+      "size": 4029,
+      "normalized_sha256": "37ace8ed32eeabdaf8505d65f41d7bf44c799d441254200390241d4a67e1d5be"
+    },
+    "src/main/java/com/pdm/mvp/alert/NotificationWorker.java": {
+      "role": "index",
+      "sha256": "ca6b867427facedd85b76da4d1d7371aeeea7d41a9e45d9db11f0be86ea774e8",
+      "size": 884,
+      "normalized_sha256": "ca6b867427facedd85b76da4d1d7371aeeea7d41a9e45d9db11f0be86ea774e8"
+    },
+    "src/main/java/com/pdm/mvp/alert/WebhookNotifier.java": {
+      "role": "index",
+      "sha256": "e2f4441348c1ffb111736bb1f63fcbdd805a726046b3e741ed7c91b59f4aa028",
+      "size": 2264,
+      "normalized_sha256": "e2f4441348c1ffb111736bb1f63fcbdd805a726046b3e741ed7c91b59f4aa028"
+    },
+    "src/main/java/com/pdm/mvp/analytics/AnalyticsEngine.java": {
+      "role": "index",
+      "sha256": "1faae38ab47e5532e21f5eb07be41a3169f39db6c2ebfc754d573ac0e2d63429",
+      "size": 3687,
+      "normalized_sha256": "1faae38ab47e5532e21f5eb07be41a3169f39db6c2ebfc754d573ac0e2d63429"
+    },
+    "src/main/java/com/pdm/mvp/analytics/BaselineController.java": {
+      "role": "index",
+      "sha256": "7c91b1fb3ea27e5ea504624c6896785d58215e17aa069b0418d483ed7d41d97b",
+      "size": 643,
+      "normalized_sha256": "7c91b1fb3ea27e5ea504624c6896785d58215e17aa069b0418d483ed7d41d97b"
+    },
+    "src/main/java/com/pdm/mvp/analytics/BaselineFeatureStateEntity.java": {
+      "role": "index",
+      "sha256": "e61dffdd59c0cfc172b5b54ff6765b19e72ac2c6ba45e94e40fa096846e8e69c",
+      "size": 2859,
+      "normalized_sha256": "e61dffdd59c0cfc172b5b54ff6765b19e72ac2c6ba45e94e40fa096846e8e69c"
+    },
+    "src/main/java/com/pdm/mvp/analytics/BaselineFeatureStateRepository.java": {
+      "role": "index",
+      "sha256": "b471319a63fd8fecfab792de943db3e0fe94403b4e09a2ae67980151168031d4",
+      "size": 628,
+      "normalized_sha256": "b471319a63fd8fecfab792de943db3e0fe94403b4e09a2ae67980151168031d4"
+    },
+    "src/main/java/com/pdm/mvp/analytics/BaselineSampleEntity.java": {
+      "role": "index",
+      "sha256": "0eeeec8ca5b7ab2fd0900b1779529c4572c20ec42789a51f78cab8cdfd4b9477",
+      "size": 2598,
+      "normalized_sha256": "0eeeec8ca5b7ab2fd0900b1779529c4572c20ec42789a51f78cab8cdfd4b9477"
+    },
+    "src/main/java/com/pdm/mvp/analytics/BaselineSampleRepository.java": {
+      "role": "index",
+      "sha256": "9610e6efa7411b1415d0e374d57212a515d82d7a837ff9f7ae7dbf48d0e38d3f",
+      "size": 583,
+      "normalized_sha256": "9610e6efa7411b1415d0e374d57212a515d82d7a837ff9f7ae7dbf48d0e38d3f"
+    },
+    "src/main/java/com/pdm/mvp/analytics/BaselineService.java": {
+      "role": "index",
+      "sha256": "6904d90dbff5c869ba809c8d6dcbcc70aec204d80f8b54a045ea708c8a4bf399",
+      "size": 34892,
+      "normalized_sha256": "6904d90dbff5c869ba809c8d6dcbcc70aec204d80f8b54a045ea708c8a4bf399"
+    },
+    "src/main/java/com/pdm/mvp/analytics/ChannelBaselineController.java": {
+      "role": "index",
+      "sha256": "d1a54acb28861fdd440a5e4e712ecad31e12ee6907fa7fd9e61d68d933d58ee7",
+      "size": 3358,
+      "normalized_sha256": "d1a54acb28861fdd440a5e4e712ecad31e12ee6907fa7fd9e61d68d933d58ee7"
+    },
+    "src/main/java/com/pdm/mvp/analytics/DefectClassifier.java": {
+      "role": "index",
+      "sha256": "0e836ff9dbeb39e37a032f1f24b66f996a8511cb9ecfe8f9156c3b429da069c0",
+      "size": 4631,
+      "normalized_sha256": "0e836ff9dbeb39e37a032f1f24b66f996a8511cb9ecfe8f9156c3b429da069c0"
+    },
+    "src/main/java/com/pdm/mvp/analytics/DegradationTracker.java": {
+      "role": "index",
+      "sha256": "cec05a077d4ad3ae62b44d13ed8962723f66253026cf537635b266aa1d1f5d8b",
+      "size": 5797,
+      "normalized_sha256": "cec05a077d4ad3ae62b44d13ed8962723f66253026cf537635b266aa1d1f5d8b"
+    },
+    "src/main/java/com/pdm/mvp/analytics/DeviceBaselineController.java": {
+      "role": "index",
+      "sha256": "59b38bd6b3e1b69f5b1020908d3ead585027efaf0842415f5cac81cafbea4120",
+      "size": 1998,
+      "normalized_sha256": "59b38bd6b3e1b69f5b1020908d3ead585027efaf0842415f5cac81cafbea4120"
+    },
+    "src/main/java/com/pdm/mvp/analytics/DeviceHealthRollup.java": {
+      "role": "index",
+      "sha256": "47fb91cf3856e1dc26cc76c2d608661b7b968c0ae891c0efc4e34f92b8d91826",
+      "size": 5931,
+      "normalized_sha256": "47fb91cf3856e1dc26cc76c2d608661b7b968c0ae891c0efc4e34f92b8d91826"
+    },
+    "src/main/java/com/pdm/mvp/analytics/HealthAssessment.java": {
+      "role": "index",
+      "sha256": "862ef61030fe9bf9897243f8bba5648024c18d891e0b1a9c60d288c64b299b12",
+      "size": 1626,
+      "normalized_sha256": "862ef61030fe9bf9897243f8bba5648024c18d891e0b1a9c60d288c64b299b12"
+    },
+    "src/main/java/com/pdm/mvp/analytics/HealthIndexCalculator.java": {
+      "role": "index",
+      "sha256": "b55220af2c08f749ba41fc63682c92d6047af82d47024ed424e2e796bff83d0b",
+      "size": 7170,
+      "normalized_sha256": "b55220af2c08f749ba41fc63682c92d6047af82d47024ed424e2e796bff83d0b"
+    },
+    "src/main/java/com/pdm/mvp/analytics/HealthScale.java": {
+      "role": "index",
+      "sha256": "1d5f545b278cd835966dc1da5421f52f10f71a7b823802d204d737a379a7cf05",
+      "size": 1837,
+      "normalized_sha256": "1d5f545b278cd835966dc1da5421f52f10f71a7b823802d204d737a379a7cf05"
+    },
+    "src/main/java/com/pdm/mvp/analytics/ModalityBaselineSampleEntity.java": {
+      "role": "index",
+      "sha256": "f00c90249d19b51626cccf575b61d0f0013cc0c50277429a46cc619fcb95f980",
+      "size": 2372,
+      "normalized_sha256": "f00c90249d19b51626cccf575b61d0f0013cc0c50277429a46cc619fcb95f980"
+    },
+    "src/main/java/com/pdm/mvp/analytics/ModalityBaselineSampleRepository.java": {
+      "role": "index",
+      "sha256": "ca0e78c79764d74b8f8519ee7b206f3ad8d4f20823879f88adcc3b37a6e1923c",
+      "size": 737,
+      "normalized_sha256": "ca0e78c79764d74b8f8519ee7b206f3ad8d4f20823879f88adcc3b37a6e1923c"
+    },
+    "src/main/java/com/pdm/mvp/analytics/RotatingVibrationPlugin.java": {
+      "role": "index",
+      "sha256": "227c29ea24455c25be40eafa4dcf3fc9d9cc93420e6163fbef0996f4beadb766",
+      "size": 8650,
+      "normalized_sha256": "227c29ea24455c25be40eafa4dcf3fc9d9cc93420e6163fbef0996f4beadb766"
+    },
+    "src/main/java/com/pdm/mvp/analytics/SpectrumBandGrid.java": {
+      "role": "index",
+      "sha256": "95b6a39c5bc9e4e042fd097c846fd8a46b0a1645cda90f975e747f9eb92f7d1a",
+      "size": 2579,
+      "normalized_sha256": "95b6a39c5bc9e4e042fd097c846fd8a46b0a1645cda90f975e747f9eb92f7d1a"
+    },
+    "src/main/java/com/pdm/mvp/analytics/SpectrumBandSampleEntity.java": {
+      "role": "index",
+      "sha256": "3823d019bf056963256fd8b37791c78a937c58aedd518723b2c47e01c5118e92",
+      "size": 2318,
+      "normalized_sha256": "3823d019bf056963256fd8b37791c78a937c58aedd518723b2c47e01c5118e92"
+    },
+    "src/main/java/com/pdm/mvp/analytics/SpectrumBandSampleRepository.java": {
+      "role": "index",
+      "sha256": "60df0ab2c8e6d67e0fbfec5c83d72ddb3224213d9c0aec00137b09bb74356f1b",
+      "size": 812,
+      "normalized_sha256": "60df0ab2c8e6d67e0fbfec5c83d72ddb3224213d9c0aec00137b09bb74356f1b"
+    },
+    "src/main/java/com/pdm/mvp/analytics/SpectrumBandStateEntity.java": {
+      "role": "index",
+      "sha256": "7876d93c71d66768b861b91bc394430b2e72fd674c45766b8e42629429536e4a",
+      "size": 3092,
+      "normalized_sha256": "7876d93c71d66768b861b91bc394430b2e72fd674c45766b8e42629429536e4a"
+    },
+    "src/main/java/com/pdm/mvp/analytics/SpectrumBandStateRepository.java": {
+      "role": "index",
+      "sha256": "e8303179e3b546cbbb8e0b3aa2aac8d1a818691b29d71c289253852bf503a7c3",
+      "size": 498,
+      "normalized_sha256": "e8303179e3b546cbbb8e0b3aa2aac8d1a818691b29d71c289253852bf503a7c3"
+    },
+    "src/main/java/com/pdm/mvp/analytics/SpectrumBaselineService.java": {
+      "role": "index",
+      "sha256": "aec28a398e8118951a4de4175788ce57e24a6af78e4987ff9739fb9285952194",
+      "size": 9511,
+      "normalized_sha256": "aec28a398e8118951a4de4175788ce57e24a6af78e4987ff9739fb9285952194"
+    },
+    "src/main/java/com/pdm/mvp/analytics/SpikeFilter.java": {
+      "role": "index",
+      "sha256": "f4058ade3c11467fe5b1e4ba49d5c5d8857ea9310d0d8bc9963b35be328bcaab",
+      "size": 2667,
+      "normalized_sha256": "f4058ade3c11467fe5b1e4ba49d5c5d8857ea9310d0d8bc9963b35be328bcaab"
+    },
+    "src/main/java/com/pdm/mvp/asset/AssetController.java": {
+      "role": "index",
+      "sha256": "0d3a96235b7a62640e8f52b806f74e3cb192e38b3019be8a3483184bea61eceb",
+      "size": 6547,
+      "normalized_sha256": "0d3a96235b7a62640e8f52b806f74e3cb192e38b3019be8a3483184bea61eceb"
+    },
+    "src/main/java/com/pdm/mvp/asset/AssetLookup.java": {
+      "role": "index",
+      "sha256": "ce7cfc4cc800c4f5cbcc37927748718e27b147db0c7b3f3889c8085767eaa1c2",
+      "size": 2420,
+      "normalized_sha256": "ce7cfc4cc800c4f5cbcc37927748718e27b147db0c7b3f3889c8085767eaa1c2"
+    },
+    "src/main/java/com/pdm/mvp/asset/AssetService.java": {
+      "role": "index",
+      "sha256": "6e56da4b41771ce288a697121541ed86d3857b9fe09861faa0611a7cafd8b25d",
+      "size": 14005,
+      "normalized_sha256": "6e56da4b41771ce288a697121541ed86d3857b9fe09861faa0611a7cafd8b25d"
+    },
+    "src/main/java/com/pdm/mvp/asset/AssetTreeController.java": {
+      "role": "index",
+      "sha256": "8c5e619097a69d0497b10ee33415dd7f5053bda267e70ed16e02fec9269d367a",
+      "size": 5852,
+      "normalized_sha256": "8c5e619097a69d0497b10ee33415dd7f5053bda267e70ed16e02fec9269d367a"
+    },
+    "src/main/java/com/pdm/mvp/asset/DemoDataInitializer.java": {
+      "role": "index",
+      "sha256": "d9fe6a126b4c33e3fb721a39437de74a74d55638fc7bc008ae7a2e21631233d1",
+      "size": 15215,
+      "normalized_sha256": "d9fe6a126b4c33e3fb721a39437de74a74d55638fc7bc008ae7a2e21631233d1"
+    },
+    "src/main/java/com/pdm/mvp/asset/DeviceEntity.java": {
+      "role": "index",
+      "sha256": "53f4e47af7911ad13f78eea52d755af5b88be17de52c26769527d753aac655cb",
+      "size": 4618,
+      "normalized_sha256": "53f4e47af7911ad13f78eea52d755af5b88be17de52c26769527d753aac655cb"
+    },
+    "src/main/java/com/pdm/mvp/asset/DeviceRepository.java": {
+      "role": "index",
+      "sha256": "5693f3565d0ee909eb6243ac85123731875bae56f263f70e356f0258e1077c29",
+      "size": 1106,
+      "normalized_sha256": "5693f3565d0ee909eb6243ac85123731875bae56f263f70e356f0258e1077c29"
+    },
+    "src/main/java/com/pdm/mvp/asset/DeviceTypeController.java": {
+      "role": "index",
+      "sha256": "b2d7b1e44a01c244f59d65fff5c957fa85c353c277b3b2230a6fbd515d55e0ed",
+      "size": 2091,
+      "normalized_sha256": "b2d7b1e44a01c244f59d65fff5c957fa85c353c277b3b2230a6fbd515d55e0ed"
+    },
+    "src/main/java/com/pdm/mvp/asset/DeviceTypeEntity.java": {
+      "role": "index",
+      "sha256": "ac65d4c57e1c8052a0f3fdd1332aea07661dbc6cd79dd90211de3850546a7bfa",
+      "size": 1087,
+      "normalized_sha256": "ac65d4c57e1c8052a0f3fdd1332aea07661dbc6cd79dd90211de3850546a7bfa"
+    },
+    "src/main/java/com/pdm/mvp/asset/DeviceTypeRepository.java": {
+      "role": "index",
+      "sha256": "a37208a9b08aa20c9186d20863eb819340dcb0701d290f65e5263ff35d1e70e4",
+      "size": 390,
+      "normalized_sha256": "a37208a9b08aa20c9186d20863eb819340dcb0701d290f65e5263ff35d1e70e4"
+    },
+    "src/main/java/com/pdm/mvp/asset/DeviceTypeService.java": {
+      "role": "index",
+      "sha256": "7cb42057622ecab66beefbe2e4eb7c86554831d6addc0958fba493ce80504146",
+      "size": 3914,
+      "normalized_sha256": "7cb42057622ecab66beefbe2e4eb7c86554831d6addc0958fba493ce80504146"
+    },
+    "src/main/java/com/pdm/mvp/asset/FactoryEntity.java": {
+      "role": "index",
+      "sha256": "ca79e40ce345c08e09c45f4a85a8c7419167ca672a2023513e8c6b27ca9cf246",
+      "size": 1202,
+      "normalized_sha256": "ca79e40ce345c08e09c45f4a85a8c7419167ca672a2023513e8c6b27ca9cf246"
+    },
+    "src/main/java/com/pdm/mvp/asset/FactoryRepository.java": {
+      "role": "index",
+      "sha256": "4040d43fca6d8e1b90043195580ab3a8c8e78fddafc113b54f4b58f4bcd224d2",
+      "size": 267,
+      "normalized_sha256": "4040d43fca6d8e1b90043195580ab3a8c8e78fddafc113b54f4b58f4bcd224d2"
+    },
+    "src/main/java/com/pdm/mvp/asset/PointEntity.java": {
+      "role": "index",
+      "sha256": "318541bf240aeb86e88f01d866baa7dee0387b49b8d4d29e987d7043951fc4a6",
+      "size": 7245,
+      "normalized_sha256": "318541bf240aeb86e88f01d866baa7dee0387b49b8d4d29e987d7043951fc4a6"
+    },
+    "src/main/java/com/pdm/mvp/asset/PointRepository.java": {
+      "role": "index",
+      "sha256": "1fba5763aaf22e94d485814998be699244ed3e7051b979b4c4be3b5eb0b64170",
+      "size": 2857,
+      "normalized_sha256": "1fba5763aaf22e94d485814998be699244ed3e7051b979b4c4be3b5eb0b64170"
+    },
+    "src/main/java/com/pdm/mvp/bearing/BearingGeometryCalculator.java": {
+      "role": "index",
+      "sha256": "4c3ca4df6ead21d74c1f84ee5a896e9680be818aeea6adea6852790758b9f87f",
+      "size": 2522,
+      "normalized_sha256": "4c3ca4df6ead21d74c1f84ee5a896e9680be818aeea6adea6852790758b9f87f"
+    },
+    "src/main/java/com/pdm/mvp/bearing/BearingLibraryController.java": {
+      "role": "index",
+      "sha256": "ad0b2eda59e8a8d9ce5e2519e52069db41ddac8c5a56739ebd894091a5cdf426",
+      "size": 806,
+      "normalized_sha256": "ad0b2eda59e8a8d9ce5e2519e52069db41ddac8c5a56739ebd894091a5cdf426"
+    },
+    "src/main/java/com/pdm/mvp/bearing/BearingLibraryEntity.java": {
+      "role": "index",
+      "sha256": "7ae5c15dd092b6e0bc46771213612d9682dc5f7812edaecfc8e05d1e3cb861ff",
+      "size": 3162,
+      "normalized_sha256": "7ae5c15dd092b6e0bc46771213612d9682dc5f7812edaecfc8e05d1e3cb861ff"
+    },
+    "src/main/java/com/pdm/mvp/bearing/BearingLibraryRepository.java": {
+      "role": "index",
+      "sha256": "bba608ff3f736341d89f6586b550d6d5cf957a2c0a7d09bb91a6351887425d8c",
+      "size": 875,
+      "normalized_sha256": "bba608ff3f736341d89f6586b550d6d5cf957a2c0a7d09bb91a6351887425d8c"
+    },
+    "src/main/java/com/pdm/mvp/bearing/BearingLibraryService.java": {
+      "role": "index",
+      "sha256": "1e855b9c9027651e2473bf6bcf56bffb47281806b20caaebedb0b648b86a9599",
+      "size": 1869,
+      "normalized_sha256": "1e855b9c9027651e2473bf6bcf56bffb47281806b20caaebedb0b648b86a9599"
+    },
+    "src/main/java/com/pdm/mvp/common/ApiExceptionHandler.java": {
+      "role": "index",
+      "sha256": "4f48ecdd0a6ed05f1abafc905b5a81143410103f32dbda48248d3bd2cd273e13",
+      "size": 3247,
+      "normalized_sha256": "6e68554cf5eeb0ffd8c985a4787240966b677f5d387f525a4789d860d00155b3"
+    },
+    "src/main/java/com/pdm/mvp/controlvalve/ControlValveConfiguration.java": {
+      "role": "index",
+      "sha256": "fdfda67ad7d0938a5fbd81d297551a571831dbd099575199d08b451aa85af9d6",
+      "size": 297,
+      "normalized_sha256": "fdfda67ad7d0938a5fbd81d297551a571831dbd099575199d08b451aa85af9d6"
+    },
+    "src/main/java/com/pdm/mvp/controlvalve/ControlValvePlugin.java": {
+      "role": "index",
+      "sha256": "3910dc196df2e94ac8abc5cffc64eaf0e128f24757e04511fc377a8970e0be88",
+      "size": 12410,
+      "normalized_sha256": "3910dc196df2e94ac8abc5cffc64eaf0e128f24757e04511fc377a8970e0be88"
+    },
+    "src/main/java/com/pdm/mvp/controlvalve/ControlValveProperties.java": {
+      "role": "index",
+      "sha256": "89bc8100b5cb86f6744f1fbbfe8f05b78efa7d1f9120ac0b557b0600ec813e18",
+      "size": 1526,
+      "normalized_sha256": "89bc8100b5cb86f6744f1fbbfe8f05b78efa7d1f9120ac0b557b0600ec813e18"
+    },
+    "src/main/java/com/pdm/mvp/dashboard/DashboardController.java": {
+      "role": "index",
+      "sha256": "2522d179acd1252566c0d4025f039bdd67031e0f5b651fe59bcd6544b32a49a8",
+      "size": 551,
+      "normalized_sha256": "2522d179acd1252566c0d4025f039bdd67031e0f5b651fe59bcd6544b32a49a8"
+    },
+    "src/main/java/com/pdm/mvp/dashboard/DashboardService.java": {
+      "role": "index",
+      "sha256": "572017dba0fa75d3779bbdc47152de46c7217e8a78248bf55274a189c71b1482",
+      "size": 6018,
+      "normalized_sha256": "572017dba0fa75d3779bbdc47152de46c7217e8a78248bf55274a189c71b1482"
+    },
+    "src/main/java/com/pdm/mvp/diagnostics/DefaultDiagnosticRuleInitializer.java": {
+      "role": "index",
+      "sha256": "11a146e8d8dd446267871c13b6a9998be67c154446c694be758757f691597291",
+      "size": 5875,
+      "normalized_sha256": "11a146e8d8dd446267871c13b6a9998be67c154446c694be758757f691597291"
+    },
+    "src/main/java/com/pdm/mvp/diagnostics/DiagnosticEvaluator.java": {
+      "role": "index",
+      "sha256": "393e82b13164e19419fb50c7bf1f0f3e11c2ecd96768a31fa511f64bb384bf9b",
+      "size": 8616,
+      "normalized_sha256": "393e82b13164e19419fb50c7bf1f0f3e11c2ecd96768a31fa511f64bb384bf9b"
+    },
+    "src/main/java/com/pdm/mvp/diagnostics/DiagnosticMatch.java": {
+      "role": "index",
+      "sha256": "b476292bc6b0b5f89b9aeffa4d5ceaf660edaa0fa5eeb28779543c95d8506170",
+      "size": 382,
+      "normalized_sha256": "b476292bc6b0b5f89b9aeffa4d5ceaf660edaa0fa5eeb28779543c95d8506170"
+    },
+    "src/main/java/com/pdm/mvp/diagnostics/DiagnosticMetric.java": {
+      "role": "index",
+      "sha256": "fc9084746c26126b7124f10b8da548e7333e731916aa8d0a137d5c9865806fd5",
+      "size": 2303,
+      "normalized_sha256": "fc9084746c26126b7124f10b8da548e7333e731916aa8d0a137d5c9865806fd5"
+    },
+    "src/main/java/com/pdm/mvp/diagnostics/DiagnosticOperator.java": {
+      "role": "index",
+      "sha256": "d87a0e1ce852f266756639be26c0e7018719b592cd91e1902fa8d4f7bbc75666",
+      "size": 381,
+      "normalized_sha256": "d87a0e1ce852f266756639be26c0e7018719b592cd91e1902fa8d4f7bbc75666"
+    },
+    "src/main/java/com/pdm/mvp/diagnostics/DiagnosticRuleController.java": {
+      "role": "index",
+      "sha256": "4bf1866aa84d21b5eca3b52483b45193cb392f7f424158dee2a737c8040fcd1e",
+      "size": 1675,
+      "normalized_sha256": "4bf1866aa84d21b5eca3b52483b45193cb392f7f424158dee2a737c8040fcd1e"
+    },
+    "src/main/java/com/pdm/mvp/diagnostics/DiagnosticRuleEntity.java": {
+      "role": "index",
+      "sha256": "2e8ab9fdabfe660a074fbc727f48efa13f8f9fd846b3174d44aab2580797a2de",
+      "size": 2817,
+      "normalized_sha256": "2e8ab9fdabfe660a074fbc727f48efa13f8f9fd846b3174d44aab2580797a2de"
+    },
+    "src/main/java/com/pdm/mvp/diagnostics/DiagnosticRuleRepository.java": {
+      "role": "index",
+      "sha256": "9a8beefaa0f23f48ec743a3e98745f0a42335106de152d2f05a8759c419aecda",
+      "size": 673,
+      "normalized_sha256": "9a8beefaa0f23f48ec743a3e98745f0a42335106de152d2f05a8759c419aecda"
+    },
+    "src/main/java/com/pdm/mvp/diagnostics/DiagnosticRuleRequest.java": {
+      "role": "index",
+      "sha256": "f79210594c5af392f58e9edfb73bc633b9c1963740bf5a9d939333a1feb80832",
+      "size": 695,
+      "normalized_sha256": "f79210594c5af392f58e9edfb73bc633b9c1963740bf5a9d939333a1feb80832"
+    },
+    "src/main/java/com/pdm/mvp/diagnostics/DiagnosticRuleService.java": {
+      "role": "index",
+      "sha256": "27de45c6e163ce36102d14a0d90eb588f0b00c2bd83e3066fc8874208ac2b973",
+      "size": 4527,
+      "normalized_sha256": "27de45c6e163ce36102d14a0d90eb588f0b00c2bd83e3066fc8874208ac2b973"
+    },
+    "src/main/java/com/pdm/mvp/diagnostics/DiagnosticRuleUpdateRequest.java": {
+      "role": "index",
+      "sha256": "afa39819a1abf3549acfdc4bcf9a95d89ba7d7bac84483c634099d985f42a5d9",
+      "size": 1005,
+      "normalized_sha256": "afa39819a1abf3549acfdc4bcf9a95d89ba7d7bac84483c634099d985f42a5d9"
+    },
+    "src/main/java/com/pdm/mvp/dsp/BandRms.java": {
+      "role": "index",
+      "sha256": "b4308f878a956354b295e1459ed569e542beaa3a7aef0a0547aff74db9e4ede3",
+      "size": 1775,
+      "normalized_sha256": "b4308f878a956354b295e1459ed569e542beaa3a7aef0a0547aff74db9e4ede3"
+    },
+    "src/main/java/com/pdm/mvp/dsp/ButterworthBandpass.java": {
+      "role": "index",
+      "sha256": "a153d270b9d96393a1e47ec3f738232b8677f076c65ab3f00523c33185ba75ae",
+      "size": 2684,
+      "normalized_sha256": "a153d270b9d96393a1e47ec3f738232b8677f076c65ab3f00523c33185ba75ae"
+    },
+    "src/main/java/com/pdm/mvp/dsp/Fft.java": {
+      "role": "index",
+      "sha256": "c4928af350cd8b8a06082647c9d2d2b8f2f239be4f9c930cb4855ed016fb2a0c",
+      "size": 6050,
+      "normalized_sha256": "c4928af350cd8b8a06082647c9d2d2b8f2f239be4f9c930cb4855ed016fb2a0c"
+    },
+    "src/main/java/com/pdm/mvp/dsp/HilbertEnvelope.java": {
+      "role": "index",
+      "sha256": "dac4afa84cfbd2a19a5d2257e66988eb5819b9f0585105b538eb4be2fd26adbd",
+      "size": 1855,
+      "normalized_sha256": "dac4afa84cfbd2a19a5d2257e66988eb5819b9f0585105b538eb4be2fd26adbd"
+    },
+    "src/main/java/com/pdm/mvp/maintenance/MaintenanceController.java": {
+      "role": "index",
+      "sha256": "939d8d61f5bef5a03612cfd359418ca130dbf6c7f3448ef54695640b9e825a63",
+      "size": 4639,
+      "normalized_sha256": "939d8d61f5bef5a03612cfd359418ca130dbf6c7f3448ef54695640b9e825a63"
+    },
+    "src/main/java/com/pdm/mvp/maintenance/MaintenancePlanEntity.java": {
+      "role": "index",
+      "sha256": "0303b2044b1235781291e0cd5494a265894d7389bb2d2dd84ccd9855c694f43a",
+      "size": 2578,
+      "normalized_sha256": "0303b2044b1235781291e0cd5494a265894d7389bb2d2dd84ccd9855c694f43a"
+    },
+    "src/main/java/com/pdm/mvp/maintenance/MaintenancePlanRepository.java": {
+      "role": "index",
+      "sha256": "d435e4678a6f42cf2bb7b4e65887e35b711b290ad952fb9de1c86a713e905fcd",
+      "size": 1136,
+      "normalized_sha256": "d435e4678a6f42cf2bb7b4e65887e35b711b290ad952fb9de1c86a713e905fcd"
+    },
+    "src/main/java/com/pdm/mvp/maintenance/MaintenanceScheduler.java": {
+      "role": "index",
+      "sha256": "49529d79cd3c8190f373e791797e7f0c724db9375f3ffeaa7c8b706722564c8e",
+      "size": 1162,
+      "normalized_sha256": "49529d79cd3c8190f373e791797e7f0c724db9375f3ffeaa7c8b706722564c8e"
+    },
+    "src/main/java/com/pdm/mvp/maintenance/MaintenanceService.java": {
+      "role": "index",
+      "sha256": "4018feec12335b5914de9357a513ff5ab11e86b94670adc731ea874ac699b708",
+      "size": 9597,
+      "normalized_sha256": "4018feec12335b5914de9357a513ff5ab11e86b94670adc731ea874ac699b708"
+    },
+    "src/main/java/com/pdm/mvp/maintenance/MaintenanceTaskEntity.java": {
+      "role": "index",
+      "sha256": "23e08946ca8567bc4ca27ceab50719f00172b5f3cbe8c05f7eb9682ab61a5b17",
+      "size": 3407,
+      "normalized_sha256": "23e08946ca8567bc4ca27ceab50719f00172b5f3cbe8c05f7eb9682ab61a5b17"
+    },
+    "src/main/java/com/pdm/mvp/maintenance/MaintenanceTaskRepository.java": {
+      "role": "index",
+      "sha256": "886465e283819852be04378e67c60d52d2163dd30c7ef7d235bccd94e3d2260c",
+      "size": 1695,
+      "normalized_sha256": "886465e283819852be04378e67c60d52d2163dd30c7ef7d235bccd94e3d2260c"
+    },
+    "src/main/java/com/pdm/mvp/maintenance/MaintenanceTaskStatus.java": {
+      "role": "index",
+      "sha256": "e0e7c219b086c8c8637ad17a3a577d17f03cc8f86fab8d53e2639ac0583cb53c",
+      "size": 201,
+      "normalized_sha256": "e0e7c219b086c8c8637ad17a3a577d17f03cc8f86fab8d53e2639ac0583cb53c"
+    },
+    "src/main/java/com/pdm/mvp/mcsa/McsaConfiguration.java": {
+      "role": "index",
+      "sha256": "4ea151b8280f08820c47393305c001fae8955d7b2a68259da83226f3a0c44ec3",
+      "size": 273,
+      "normalized_sha256": "4ea151b8280f08820c47393305c001fae8955d7b2a68259da83226f3a0c44ec3"
+    },
+    "src/main/java/com/pdm/mvp/mcsa/McsaPlugin.java": {
+      "role": "index",
+      "sha256": "e7cb0ecc3b527c08f4ceeb362e934d98b1c55ca9bd41d0e741244ff38fd87476",
+      "size": 7983,
+      "normalized_sha256": "e7cb0ecc3b527c08f4ceeb362e934d98b1c55ca9bd41d0e741244ff38fd87476"
+    },
+    "src/main/java/com/pdm/mvp/mcsa/McsaProperties.java": {
+      "role": "index",
+      "sha256": "05717b06afc136ef08175af451c33b7422552f6ffe1ebcf11f964ee8f9ee49ff",
+      "size": 1006,
+      "normalized_sha256": "05717b06afc136ef08175af451c33b7422552f6ffe1ebcf11f964ee8f9ee49ff"
+    },
+    "src/main/java/com/pdm/mvp/modality/BaselineSnapshot.java": {
+      "role": "index",
+      "sha256": "49f0cd2993e53d4e0dd3f26644b17535ebb0dd635076b01349880dd1667580af",
+      "size": 1082,
+      "normalized_sha256": "49f0cd2993e53d4e0dd3f26644b17535ebb0dd635076b01349880dd1667580af"
+    },
+    "src/main/java/com/pdm/mvp/modality/DiagnosticMicrokernel.java": {
+      "role": "index",
+      "sha256": "d44da3f92e48d8447adab08a252129e9b105bff8ea101fa1ebf4952c8450b695",
+      "size": 2883,
+      "normalized_sha256": "d44da3f92e48d8447adab08a252129e9b105bff8ea101fa1ebf4952c8450b695"
+    },
+    "src/main/java/com/pdm/mvp/modality/MechanismPluginStrategy.java": {
+      "role": "index",
+      "sha256": "ae94d06de4c6f9dbbd47cf8cb68bb9d2d6398a293d2edcce0db9eb354815abfd",
+      "size": 6797,
+      "normalized_sha256": "ae94d06de4c6f9dbbd47cf8cb68bb9d2d6398a293d2edcce0db9eb354815abfd"
+    },
+    "src/main/java/com/pdm/mvp/modality/MechanismStrategyPlugin.java": {
+      "role": "index",
+      "sha256": "202d85a388d7a5defffddd2430ee2f425125e0c48b2baca3f4414daf51fbd88f",
+      "size": 10150,
+      "normalized_sha256": "202d85a388d7a5defffddd2430ee2f425125e0c48b2baca3f4414daf51fbd88f"
+    },
+    "src/main/java/com/pdm/mvp/modality/ModalityCatalogController.java": {
+      "role": "index",
+      "sha256": "e59470511875a132cd50fbb68f2ad5b42e3f286ea5e72fded32f8bff02941df0",
+      "size": 4060,
+      "normalized_sha256": "e59470511875a132cd50fbb68f2ad5b42e3f286ea5e72fded32f8bff02941df0"
+    },
+    "src/main/java/com/pdm/mvp/modality/ModalityPlugin.java": {
+      "role": "index",
+      "sha256": "7ffd4d54dfe6b124075dbc4d9ea88dd4c139db2aca6cc84f7b33bb1235a6c8c6",
+      "size": 6695,
+      "normalized_sha256": "7ffd4d54dfe6b124075dbc4d9ea88dd4c139db2aca6cc84f7b33bb1235a6c8c6"
+    },
+    "src/main/java/com/pdm/mvp/modality/ModalityPluginRegistry.java": {
+      "role": "index",
+      "sha256": "5c04acea04012a96bcc820a6e16107ef962fac12e6a94cedd70af0fb4a3fa19e",
+      "size": 1744,
+      "normalized_sha256": "5c04acea04012a96bcc820a6e16107ef962fac12e6a94cedd70af0fb4a3fa19e"
+    },
+    "src/main/java/com/pdm/mvp/modality/ModalityTypes.java": {
+      "role": "index",
+      "sha256": "e21d26eb21b9c6c4e0c68abe9a33571272c1b95cf9371a7b98bd8110a5b11cbe",
+      "size": 1402,
+      "normalized_sha256": "e21d26eb21b9c6c4e0c68abe9a33571272c1b95cf9371a7b98bd8110a5b11cbe"
+    },
+    "src/main/java/com/pdm/mvp/modality/TelemetryFreshnessPolicy.java": {
+      "role": "index",
+      "sha256": "8c4fb6eddfb456130950141df36c7c841749ad4bf9be0398e79af7900bb4423c",
+      "size": 1735,
+      "normalized_sha256": "8c4fb6eddfb456130950141df36c7c841749ad4bf9be0398e79af7900bb4423c"
+    },
+    "src/main/java/com/pdm/mvp/prediction/FailurePrediction.java": {
+      "role": "index",
+      "sha256": "e2caa9a222547c6568f5d541873c55da440ed5accb32aa02074b7e2b8013c810",
+      "size": 517,
+      "normalized_sha256": "e2caa9a222547c6568f5d541873c55da440ed5accb32aa02074b7e2b8013c810"
+    },
+    "src/main/java/com/pdm/mvp/prediction/FailurePredictionController.java": {
+      "role": "index",
+      "sha256": "efff452c161767451b49fb187eaf8f68b1448c24610ce3d51e6cae0ea52f8c2a",
+      "size": 722,
+      "normalized_sha256": "efff452c161767451b49fb187eaf8f68b1448c24610ce3d51e6cae0ea52f8c2a"
+    },
+    "src/main/java/com/pdm/mvp/prediction/FailurePredictionService.java": {
+      "role": "index",
+      "sha256": "517378a2c80a665036a74adc7ef8b65c019fe2fb99b55ccb3b1946bbeab3640e",
+      "size": 11591,
+      "normalized_sha256": "517378a2c80a665036a74adc7ef8b65c019fe2fb99b55ccb3b1946bbeab3640e"
+    },
+    "src/main/java/com/pdm/mvp/prediction/PredictionPointReader.java": {
+      "role": "index",
+      "sha256": "2168385e2359ca50de380dd6dd036044401c244d1272240eecf777d6ee082e08",
+      "size": 2504,
+      "normalized_sha256": "2168385e2359ca50de380dd6dd036044401c244d1272240eecf777d6ee082e08"
+    },
+    "src/main/java/com/pdm/mvp/scheduling/SchedulingConfiguration.java": {
+      "role": "index",
+      "sha256": "2091bb19c42fd680f5f4a4f34c20a68da06f8294f12e0ea4859ea06a43ba4659",
+      "size": 977,
+      "normalized_sha256": "2091bb19c42fd680f5f4a4f34c20a68da06f8294f12e0ea4859ea06a43ba4659"
+    },
+    "src/main/java/com/pdm/mvp/security/AdminBootstrap.java": {
+      "role": "index",
+      "sha256": "b9e5544d3e33372ed228e935948356e74f709538981904cf019160a7250f9b4f",
+      "size": 1071,
+      "normalized_sha256": "b9e5544d3e33372ed228e935948356e74f709538981904cf019160a7250f9b4f"
+    },
+    "src/main/java/com/pdm/mvp/security/AuthController.java": {
+      "role": "index",
+      "sha256": "8da2c84829ea627ae940d69ed7cc02bea259d4e71ac67da3846e37c919f0382a",
+      "size": 3699,
+      "normalized_sha256": "8da2c84829ea627ae940d69ed7cc02bea259d4e71ac67da3846e37c919f0382a"
+    },
+    "src/main/java/com/pdm/mvp/security/SecurityConfiguration.java": {
+      "role": "index",
+      "sha256": "0da7fbbf32bd7097175d1594a9ee072f35207ced43d9df7304913f6a7bf51dbc",
+      "size": 3282,
+      "normalized_sha256": "0da7fbbf32bd7097175d1594a9ee072f35207ced43d9df7304913f6a7bf51dbc"
+    },
+    "src/main/java/com/pdm/mvp/security/UserEntity.java": {
+      "role": "index",
+      "sha256": "1aed54454c7c445eafc7ef6896528e2cbfde6893a4dc89eb61e60f13a2303d50",
+      "size": 2389,
+      "normalized_sha256": "1aed54454c7c445eafc7ef6896528e2cbfde6893a4dc89eb61e60f13a2303d50"
+    },
+    "src/main/java/com/pdm/mvp/security/UserRepository.java": {
+      "role": "index",
+      "sha256": "8acb1fd7afa3ac0e4427e8a5c2b864bb22a5c43cf8d374df9b920caf2b92926c",
+      "size": 490,
+      "normalized_sha256": "8acb1fd7afa3ac0e4427e8a5c2b864bb22a5c43cf8d374df9b920caf2b92926c"
+    },
+    "src/main/java/com/pdm/mvp/snapshot/ChannelSnapshotController.java": {
+      "role": "index",
+      "sha256": "615a197f7313b5b69aef9689257bd7a8262ff545a5625f7436df4154c2b7eab3",
+      "size": 1560,
+      "normalized_sha256": "615a197f7313b5b69aef9689257bd7a8262ff545a5625f7436df4154c2b7eab3"
+    },
+    "src/main/java/com/pdm/mvp/snapshot/ChannelSnapshotEntity.java": {
+      "role": "index",
+      "sha256": "88abf3d3b158e26df53cd65a8bfd62b20d7279853b42cdc5e45b97241152bdbf",
+      "size": 5381,
+      "normalized_sha256": "88abf3d3b158e26df53cd65a8bfd62b20d7279853b42cdc5e45b97241152bdbf"
+    },
+    "src/main/java/com/pdm/mvp/snapshot/ChannelSnapshotRepository.java": {
+      "role": "index",
+      "sha256": "575edcdbec32f5907e120b9cb6dc8d9f8fe919999ea53089bb75fba638027f11",
+      "size": 590,
+      "normalized_sha256": "575edcdbec32f5907e120b9cb6dc8d9f8fe919999ea53089bb75fba638027f11"
+    },
+    "src/main/java/com/pdm/mvp/snapshot/ChannelSnapshotService.java": {
+      "role": "index",
+      "sha256": "bbd71ed869fa36cee1d37c7b10d48cc5accd21a05523f901a773769bbb09b3c7",
+      "size": 12805,
+      "normalized_sha256": "bbd71ed869fa36cee1d37c7b10d48cc5accd21a05523f901a773769bbb09b3c7"
+    },
+    "src/main/java/com/pdm/mvp/snapshot/ChannelSnapshotViews.java": {
+      "role": "index",
+      "sha256": "43e4f237eaa81a9c583101801cfebdb003c0fcb1b6a32ce3d4a5b42829aab22a",
+      "size": 4124,
+      "normalized_sha256": "43e4f237eaa81a9c583101801cfebdb003c0fcb1b6a32ce3d4a5b42829aab22a"
+    },
+    "src/main/java/com/pdm/mvp/snapshot/ModalityStreamController.java": {
+      "role": "index",
+      "sha256": "103281f11f6e3489359625f834b29365ccf6e5b7860264084c2bf3876506c6a3",
+      "size": 5098,
+      "normalized_sha256": "103281f11f6e3489359625f834b29365ccf6e5b7860264084c2bf3876506c6a3"
+    },
+    "src/main/java/com/pdm/mvp/snapshot/ModalityStreamHub.java": {
+      "role": "index",
+      "sha256": "cf379e24a60dbd107428c2608977849f061dd22d1ca2cab949d2fed36b2243bf",
+      "size": 9981,
+      "normalized_sha256": "cf379e24a60dbd107428c2608977849f061dd22d1ca2cab949d2fed36b2243bf"
+    },
+    "src/main/java/com/pdm/mvp/snapshot/PhmSnapshotPayload.java": {
+      "role": "index",
+      "sha256": "9b1e67872dee1b27385110bcc12d8c6a3a9f1defd542815aa736a87d10dc1ed8",
+      "size": 5249,
+      "normalized_sha256": "9b1e67872dee1b27385110bcc12d8c6a3a9f1defd542815aa736a87d10dc1ed8"
+    },
+    "src/main/java/com/pdm/mvp/snapshot/StrokeAnnotationCalculator.java": {
+      "role": "index",
+      "sha256": "6c9354591e13ced47b86b0fadc83785815c459b0c9b832c780fa0709dc8d9cd1",
+      "size": 8086,
+      "normalized_sha256": "6c9354591e13ced47b86b0fadc83785815c459b0c9b832c780fa0709dc8d9cd1"
+    },
+    "src/main/java/com/pdm/mvp/snapshot/ValveLoopAnalyzer.java": {
+      "role": "index",
+      "sha256": "5c6c8386a4d357907bb20253260cdfc6ecebf170327c065baf78ca301be70fdb",
+      "size": 7808,
+      "normalized_sha256": "5c6c8386a4d357907bb20253260cdfc6ecebf170327c065baf78ca301be70fdb"
+    },
+    "src/main/java/com/pdm/mvp/snapshot/ValveLoopController.java": {
+      "role": "index",
+      "sha256": "d5b3812f3c5ff52c9746423b19510c4df6b1fd6db7700ce55f582874f6f026ca",
+      "size": 5371,
+      "normalized_sha256": "d5b3812f3c5ff52c9746423b19510c4df6b1fd6db7700ce55f582874f6f026ca"
+    },
+    "src/main/java/com/pdm/mvp/switchgear/CircuitBreakerPlugin.java": {
+      "role": "index",
+      "sha256": "c8e4873bd639d6be6cdba3a7b3ef63751990ecb7aa0ddba1daf25c825fd759a9",
+      "size": 11619,
+      "normalized_sha256": "c8e4873bd639d6be6cdba3a7b3ef63751990ecb7aa0ddba1daf25c825fd759a9"
+    },
+    "src/main/java/com/pdm/mvp/switchgear/SwitchgearConfiguration.java": {
+      "role": "index",
+      "sha256": "e3b0c0e8ffae2755ea258c66682fedb0e57acdb76f5edeb0bd478b296424074b",
+      "size": 291,
+      "normalized_sha256": "e3b0c0e8ffae2755ea258c66682fedb0e57acdb76f5edeb0bd478b296424074b"
+    },
+    "src/main/java/com/pdm/mvp/switchgear/SwitchgearProperties.java": {
+      "role": "index",
+      "sha256": "296391e3b720d1e7c7b73feaf6f1a47d5b4c22083db1fe188f43469945af8224",
+      "size": 1970,
+      "normalized_sha256": "296391e3b720d1e7c7b73feaf6f1a47d5b4c22083db1fe188f43469945af8224"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/ContractTelemetryRequest.java": {
+      "role": "index",
+      "sha256": "ca4595fcb1ef8412bbeda714dcf151e731cb108d661f57d9e2d74675ca5c8c36",
+      "size": 4069,
+      "normalized_sha256": "ca4595fcb1ef8412bbeda714dcf151e731cb108d661f57d9e2d74675ca5c8c36"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/MqttCommandPublisher.java": {
+      "role": "index",
+      "sha256": "68daed9f0ca8b9286494596dd12ad11ff7267bd96eaa37af23815bb115533e7d",
+      "size": 1529,
+      "normalized_sha256": "68daed9f0ca8b9286494596dd12ad11ff7267bd96eaa37af23815bb115533e7d"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/MqttOutboundConfiguration.java": {
+      "role": "index",
+      "sha256": "59481d9d5e96f1c30d8f1cde55c4223f7bb2b0f5ca43d4fefdbe30c9a5c422e0",
+      "size": 1965,
+      "normalized_sha256": "59481d9d5e96f1c30d8f1cde55c4223f7bb2b0f5ca43d4fefdbe30c9a5c422e0"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/MqttTelemetryConfiguration.java": {
+      "role": "index",
+      "sha256": "26c25016ae8e7e69abd073b7e8efa1eb588d5991a1be30a55568e63d634e1331",
+      "size": 5619,
+      "normalized_sha256": "26c25016ae8e7e69abd073b7e8efa1eb588d5991a1be30a55568e63d634e1331"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/MqttTelemetryConsumer.java": {
+      "role": "index",
+      "sha256": "4b94c6b50f0fe793401e0be923ea9f39fe396c88a17a0a303897ad3938e7bbfd",
+      "size": 12220,
+      "normalized_sha256": "4b94c6b50f0fe793401e0be923ea9f39fe396c88a17a0a303897ad3938e7bbfd"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/OperatingCondition.java": {
+      "role": "index",
+      "sha256": "32002149b47535d5ce98a33ce2cd3d9aa9dfc5813c63c811ad62038f33259d9e",
+      "size": 1406,
+      "normalized_sha256": "32002149b47535d5ce98a33ce2cd3d9aa9dfc5813c63c811ad62038f33259d9e"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/PhmTelemetryController.java": {
+      "role": "index",
+      "sha256": "cc896007fe8f497578c025bf73c87e4926c566d07d520651a79c28752e261111",
+      "size": 1110,
+      "normalized_sha256": "cc896007fe8f497578c025bf73c87e4926c566d07d520651a79c28752e261111"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/PhmTelemetryRequest.java": {
+      "role": "index",
+      "sha256": "f4b6e0c7e7be266e1da12e679ba19ebe1323d51d576911b94beed0190c6bf790",
+      "size": 7107,
+      "normalized_sha256": "f4b6e0c7e7be266e1da12e679ba19ebe1323d51d576911b94beed0190c6bf790"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/ProtocolTelemetryRequest.java": {
+      "role": "index",
+      "sha256": "b0132e0f8bf2af4a13ac872a39eb2ca2ddce7dc85e201e547a8b8b65dd325240",
+      "size": 5008,
+      "normalized_sha256": "b0132e0f8bf2af4a13ac872a39eb2ca2ddce7dc85e201e547a8b8b65dd325240"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/TelemetryContractController.java": {
+      "role": "index",
+      "sha256": "185535b9909196c39f963544cd61b03ca6be8a4c75680d4f17b96294c46d0b11",
+      "size": 1101,
+      "normalized_sha256": "185535b9909196c39f963544cd61b03ca6be8a4c75680d4f17b96294c46d0b11"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/TelemetryController.java": {
+      "role": "index",
+      "sha256": "f1508d25edcc143e7667539bee9efc2bb6ceaa6ce3d88fa1669c8383948d87b1",
+      "size": 934,
+      "normalized_sha256": "f1508d25edcc143e7667539bee9efc2bb6ceaa6ce3d88fa1669c8383948d87b1"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/TelemetryEnvelope.java": {
+      "role": "index",
+      "sha256": "56b0a7e8685e13b5faf1484fd1bcfb6cc1864f4ae81dd4fd4af15e87b9be9014",
+      "size": 1601,
+      "normalized_sha256": "56b0a7e8685e13b5faf1484fd1bcfb6cc1864f4ae81dd4fd4af15e87b9be9014"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/TelemetryPoint.java": {
+      "role": "index",
+      "sha256": "7f3e18d2b2d9a2a581cade419d50157d77deed8758ea6e847beb130daf2adcf4",
+      "size": 884,
+      "normalized_sha256": "7f3e18d2b2d9a2a581cade419d50157d77deed8758ea6e847beb130daf2adcf4"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/TelemetryRequest.java": {
+      "role": "index",
+      "sha256": "3dde5761bfb4dddae38ec35889e43754418ca6257c599423c86c4e76a19a3831",
+      "size": 1529,
+      "normalized_sha256": "3dde5761bfb4dddae38ec35889e43754418ca6257c599423c86c4e76a19a3831"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/TelemetryResult.java": {
+      "role": "index",
+      "sha256": "c4e8336d69ae0b0a0cab63bbb886ff40f39e48dcd40c31a742adaa8c229fc37b",
+      "size": 148,
+      "normalized_sha256": "c4e8336d69ae0b0a0cab63bbb886ff40f39e48dcd40c31a742adaa8c229fc37b"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/TelemetryService.java": {
+      "role": "index",
+      "sha256": "b6314179a7948020f99b2d798290afd46687571195cef8d87be0837418b24ef3",
+      "size": 13780,
+      "normalized_sha256": "b6314179a7948020f99b2d798290afd46687571195cef8d87be0837418b24ef3"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/TelemetryValidator.java": {
+      "role": "index",
+      "sha256": "53ba727040cfc3e26c00c5a5fa9e9561ec0961b185526bf8620b027b83a5fb32",
+      "size": 6884,
+      "normalized_sha256": "53ba727040cfc3e26c00c5a5fa9e9561ec0961b185526bf8620b027b83a5fb32"
+    },
+    "src/main/java/com/pdm/mvp/telemetry/VibrationContractAdapter.java": {
+      "role": "index",
+      "sha256": "54376a0f85e2fe3c116ae4509eef602858d8acaf220648718b4df9cba5dfae2b",
+      "size": 4176,
+      "normalized_sha256": "54376a0f85e2fe3c116ae4509eef602858d8acaf220648718b4df9cba5dfae2b"
+    },
+    "src/main/java/com/pdm/mvp/timeseries/ChannelQueryController.java": {
+      "role": "index",
+      "sha256": "29581bd9119e3b6f34a9c7fb727f252916582a24437de9eb4248355e10c9c380",
+      "size": 1093,
+      "normalized_sha256": "29581bd9119e3b6f34a9c7fb727f252916582a24437de9eb4248355e10c9c380"
+    },
+    "src/main/java/com/pdm/mvp/timeseries/ChannelSeriesService.java": {
+      "role": "index",
+      "sha256": "fdb9fd80fddd9f6b293ff25515991c019b477e3c201a15b1d9b61583555305aa",
+      "size": 5405,
+      "normalized_sha256": "fdb9fd80fddd9f6b293ff25515991c019b477e3c201a15b1d9b61583555305aa"
+    },
+    "src/main/java/com/pdm/mvp/timeseries/InfluxConfiguration.java": {
+      "role": "index",
+      "sha256": "23d211a4c08e19eaf434789550226513c301bfef9d0a5b68ef9469ab83287abe",
+      "size": 606,
+      "normalized_sha256": "23d211a4c08e19eaf434789550226513c301bfef9d0a5b68ef9469ab83287abe"
+    },
+    "src/main/java/com/pdm/mvp/timeseries/InfluxProperties.java": {
+      "role": "index",
+      "sha256": "c604e0f5a0fc21de8b0bcbce4518145d9fa64298e9659b532f32813e1a2da2b6",
+      "size": 244,
+      "normalized_sha256": "c604e0f5a0fc21de8b0bcbce4518145d9fa64298e9659b532f32813e1a2da2b6"
+    },
+    "src/main/java/com/pdm/mvp/timeseries/InfluxTelemetryStore.java": {
+      "role": "index",
+      "sha256": "31e859090a2c4a61ab89cbbe0eda4e29141adade3fad52c775ecf9dcbfbb938a",
+      "size": 29186,
+      "normalized_sha256": "31e859090a2c4a61ab89cbbe0eda4e29141adade3fad52c775ecf9dcbfbb938a"
+    },
+    "src/main/java/com/pdm/mvp/timeseries/TelemetryFeaturesController.java": {
+      "role": "index",
+      "sha256": "b4eb8d059a2a2a51b3be399ab6d25ce5bfbe0e3c2aa0a2d67ac9084ad5dca601",
+      "size": 3976,
+      "normalized_sha256": "b4eb8d059a2a2a51b3be399ab6d25ce5bfbe0e3c2aa0a2d67ac9084ad5dca601"
+    },
+    "src/main/java/com/pdm/mvp/timeseries/TelemetryQueryController.java": {
+      "role": "index",
+      "sha256": "f6062df466ba701dbb4f2353942c0e5b522402140853d8d773a76f1fe9aa87c4",
+      "size": 1965,
+      "normalized_sha256": "f6062df466ba701dbb4f2353942c0e5b522402140853d8d773a76f1fe9aa87c4"
+    },
+    "src/main/java/com/pdm/mvp/timeseries/TelemetryStore.java": {
+      "role": "index",
+      "sha256": "4f97373a926f648142f5d7061c57a37e95ad52ee5eced29382db76b4e3e1ec2c",
+      "size": 1862,
+      "normalized_sha256": "4f97373a926f648142f5d7061c57a37e95ad52ee5eced29382db76b4e3e1ec2c"
+    },
+    "src/main/java/com/pdm/mvp/waveform/DiagnosticsController.java": {
+      "role": "index",
+      "sha256": "50c88c5eaab608794b1dcbd16bf4b469ea00066ac0b3d2493da02bba5be341ba",
+      "size": 2931,
+      "normalized_sha256": "50c88c5eaab608794b1dcbd16bf4b469ea00066ac0b3d2493da02bba5be341ba"
+    },
+    "src/main/java/com/pdm/mvp/waveform/LiveStreamController.java": {
+      "role": "index",
+      "sha256": "b70654d4c35c11fd8f6cb760e2141d9e77531b6e4d5c786adbd133ca8fa0f5cd",
+      "size": 10041,
+      "normalized_sha256": "b70654d4c35c11fd8f6cb760e2141d9e77531b6e4d5c786adbd133ca8fa0f5cd"
+    },
+    "src/main/java/com/pdm/mvp/waveform/LocalVolumeWaveformStorage.java": {
+      "role": "index",
+      "sha256": "b4c05bf33b6c7c5776118651767c8c8421780d6b8c39bedf4f1acfa9a594692a",
+      "size": 1597,
+      "normalized_sha256": "b4c05bf33b6c7c5776118651767c8c8421780d6b8c39bedf4f1acfa9a594692a"
+    },
+    "src/main/java/com/pdm/mvp/waveform/RawWaveformPayload.java": {
+      "role": "index",
+      "sha256": "700197a2a075d47a65512ac407bb273039824786f84ee6a7e6755bf754b78e24",
+      "size": 1689,
+      "normalized_sha256": "700197a2a075d47a65512ac407bb273039824786f84ee6a7e6755bf754b78e24"
+    },
+    "src/main/java/com/pdm/mvp/waveform/WaveformService.java": {
+      "role": "index",
+      "sha256": "1f83e8e9bb92ab81c3e50cee0d09365ba136a3cfe946f13712666dc9d47e48ba",
+      "size": 9720,
+      "normalized_sha256": "1f83e8e9bb92ab81c3e50cee0d09365ba136a3cfe946f13712666dc9d47e48ba"
+    },
+    "src/main/java/com/pdm/mvp/waveform/WaveformSnapshotEntity.java": {
+      "role": "index",
+      "sha256": "f552718be4a00e10190b2cb3281d2ccc354b121b0cf5ffcbcc1e0229a0de5f26",
+      "size": 3524,
+      "normalized_sha256": "f552718be4a00e10190b2cb3281d2ccc354b121b0cf5ffcbcc1e0229a0de5f26"
+    },
+    "src/main/java/com/pdm/mvp/waveform/WaveformSnapshotRepository.java": {
+      "role": "index",
+      "sha256": "bddc6ac162753107a038f204024e35c582127efacb23c08f2d681849b241c1d5",
+      "size": 503,
+      "normalized_sha256": "bddc6ac162753107a038f204024e35c582127efacb23c08f2d681849b241c1d5"
+    },
+    "src/main/java/com/pdm/mvp/waveform/WaveformStorage.java": {
+      "role": "index",
+      "sha256": "1c7a0917e49019773889f034acc81fd9ef5aab7401a10a62253d7ec0321f4c4c",
+      "size": 440,
+      "normalized_sha256": "1c7a0917e49019773889f034acc81fd9ef5aab7401a10a62253d7ec0321f4c4c"
+    },
+    "src/main/java/com/pdm/mvp/waveform/WaveframeService.java": {
+      "role": "index",
+      "sha256": "6d1defd7eaade3cf4ccf2fd6cdc9360e70b974344808b5317f21c7c9423696e3",
+      "size": 4267,
+      "normalized_sha256": "6d1defd7eaade3cf4ccf2fd6cdc9360e70b974344808b5317f21c7c9423696e3"
+    },
+    "src/main/java/com/pdm/mvp/web/SpaController.java": {
+      "role": "index",
+      "sha256": "079ea9386aa5fa630ff42d3298a3c7b3302508d96e3b386235649a010e419dbd",
+      "size": 424,
+      "normalized_sha256": "079ea9386aa5fa630ff42d3298a3c7b3302508d96e3b386235649a010e419dbd"
+    },
+    "src/main/java/com/pdm/mvp/workorder/DiagnosisVerdict.java": {
+      "role": "index",
+      "sha256": "bc8c6eb92465f998018ee37fd6c46ef0a940d73b058f4a40cabf28ccd3352e28",
+      "size": 110,
+      "normalized_sha256": "bc8c6eb92465f998018ee37fd6c46ef0a940d73b058f4a40cabf28ccd3352e28"
+    },
+    "src/main/java/com/pdm/mvp/workorder/WorkOrderController.java": {
+      "role": "index",
+      "sha256": "ff7e8a0c5d7036d0df313595e6f75b89dfad69cf57c8726ecab899c865f92695",
+      "size": 3097,
+      "normalized_sha256": "ff7e8a0c5d7036d0df313595e6f75b89dfad69cf57c8726ecab899c865f92695"
+    },
+    "src/main/java/com/pdm/mvp/workorder/WorkOrderEntity.java": {
+      "role": "index",
+      "sha256": "ed901a3905e9884257eda83eb187dd0e182160255f07bb87e70f594daa59e9a3",
+      "size": 4397,
+      "normalized_sha256": "ed901a3905e9884257eda83eb187dd0e182160255f07bb87e70f594daa59e9a3"
+    },
+    "src/main/java/com/pdm/mvp/workorder/WorkOrderRepository.java": {
+      "role": "index",
+      "sha256": "15d7d61094d8dddecb829547717dd13f7cce300b70a6273aecfe371e346ba11c",
+      "size": 1089,
+      "normalized_sha256": "15d7d61094d8dddecb829547717dd13f7cce300b70a6273aecfe371e346ba11c"
+    },
+    "src/main/java/com/pdm/mvp/workorder/WorkOrderService.java": {
+      "role": "index",
+      "sha256": "bf18cfebdfa89acf69201feb6ed94cdfc005265891569faf5f6fb5d793147fc4",
+      "size": 7797,
+      "normalized_sha256": "bf18cfebdfa89acf69201feb6ed94cdfc005265891569faf5f6fb5d793147fc4"
+    },
+    "src/main/resources/application.yml": {
+      "role": "index",
+      "sha256": "faa3d2a2a280db149705548f1bb353ae53dbf4524feefa46a965dcd6d5004b9b",
+      "size": 4782,
+      "normalized_sha256": "faa3d2a2a280db149705548f1bb353ae53dbf4524feefa46a965dcd6d5004b9b"
+    },
+    "src/main/resources/db/migration/V10__notification_outbox.sql": {
+      "role": "index",
+      "sha256": "74d042d81cfbe31a150fd9c9cc47398daeb67838cd05f9afae2fdad5cea99ca4",
+      "size": 1082,
+      "normalized_sha256": "74d042d81cfbe31a150fd9c9cc47398daeb67838cd05f9afae2fdad5cea99ca4"
+    },
+    "src/main/resources/db/migration/V11__modality_and_feature_baseline.sql": {
+      "role": "index",
+      "sha256": "0d1567c414426a617a1b418e6a04a70450e27a4fa3578ff527f2e47bf10d3d04",
+      "size": 3191,
+      "normalized_sha256": "0d1567c414426a617a1b418e6a04a70450e27a4fa3578ff527f2e47bf10d3d04"
+    },
+    "src/main/resources/db/migration/V12__phm_upgrade.sql": {
+      "role": "index",
+      "sha256": "2b9862b90ef39b9bb7ecb3ca70689d3fc1963a4cd66b366201e82b7911a6af4e",
+      "size": 3858,
+      "normalized_sha256": "2b9862b90ef39b9bb7ecb3ca70689d3fc1963a4cd66b366201e82b7911a6af4e"
+    },
+    "src/main/resources/db/migration/V13__multimodal_channel.sql": {
+      "role": "index",
+      "sha256": "89d1153089d99ab3b91467255cebcf119a54d8d53124a1f5e86b58ff21fd15af",
+      "size": 547,
+      "normalized_sha256": "89d1153089d99ab3b91467255cebcf119a54d8d53124a1f5e86b58ff21fd15af"
+    },
+    "src/main/resources/db/migration/V14__channel_snapshot.sql": {
+      "role": "index",
+      "sha256": "b40f0402d413f9c6708c056d23ea754887531c58b8e1d3bb471cb68b1cdad74d",
+      "size": 959,
+      "normalized_sha256": "b40f0402d413f9c6708c056d23ea754887531c58b8e1d3bb471cb68b1cdad74d"
+    },
+    "src/main/resources/db/migration/V15__nullable_baseline_a_peak.sql": {
+      "role": "index",
+      "sha256": "558cd96552e3b0d9d93cf95dcafb576ff936b71ffebdae9d1b71f3b718ad4388",
+      "size": 311,
+      "normalized_sha256": "558cd96552e3b0d9d93cf95dcafb576ff936b71ffebdae9d1b71f3b718ad4388"
+    },
+    "src/main/resources/db/migration/V16__channel_snapshot_unique.sql": {
+      "role": "index",
+      "sha256": "3a010baf2d4a4abf5ce578e73e787be3ee58b254edc019066a2c5266f67c573e",
+      "size": 628,
+      "normalized_sha256": "3a010baf2d4a4abf5ce578e73e787be3ee58b254edc019066a2c5266f67c573e"
+    },
+    "src/main/resources/db/migration/V17__spectrum_baseline_band.sql": {
+      "role": "index",
+      "sha256": "41e2550fa4d41170b50a89eac34da403be3c5a126b944c6e1165b7ee4b1720e7",
+      "size": 1573,
+      "normalized_sha256": "41e2550fa4d41170b50a89eac34da403be3c5a126b944c6e1165b7ee4b1720e7"
+    },
+    "src/main/resources/db/migration/V18__expand_multimodal_diagnostic_metrics.sql": {
+      "role": "index",
+      "sha256": "6476e4466e3c8b23725e6213cdbd936f97d33333693e76bed716296e4837ce58",
+      "size": 1002,
+      "normalized_sha256": "6476e4466e3c8b23725e6213cdbd936f97d33333693e76bed716296e4837ce58"
+    },
+    "src/main/resources/db/migration/V19__validate_multimodal_diagnostic_metrics.sql": {
+      "role": "index",
+      "sha256": "e82e4211a08eec5f37f463855b0a8d99d79985f724dc3a1d76673f95226db337",
+      "size": 250,
+      "normalized_sha256": "e82e4211a08eec5f37f463855b0a8d99d79985f724dc3a1d76673f95226db337"
+    },
+    "src/main/resources/db/migration/V1__core_schema.sql": {
+      "role": "index",
+      "sha256": "5c116929a6d6219e4b393bb0f452156515598cf553194c5ed7e894ab700cd4ce",
+      "size": 1878,
+      "normalized_sha256": "5c116929a6d6219e4b393bb0f452156515598cf553194c5ed7e894ab700cd4ce"
+    },
+    "src/main/resources/db/migration/V2__auth_and_baseline_samples.sql": {
+      "role": "index",
+      "sha256": "4f140b44ede83243aef04cfa6a250df4359a88b66ddb2bf46d457bbd121137d8",
+      "size": 1125,
+      "normalized_sha256": "4f140b44ede83243aef04cfa6a250df4359a88b66ddb2bf46d457bbd121137d8"
+    },
+    "src/main/resources/db/migration/V3__alerts_work_orders.sql": {
+      "role": "index",
+      "sha256": "026b2919b85dbcb51ab4236b9c8dad61506bdebc36ebedb364d111243f01b34f",
+      "size": 1465,
+      "normalized_sha256": "026b2919b85dbcb51ab4236b9c8dad61506bdebc36ebedb364d111243f01b34f"
+    },
+    "src/main/resources/db/migration/V4__device_types_and_diagnostic_rules.sql": {
+      "role": "index",
+      "sha256": "af492707fe85a634b44d3e761345a0385974a01dce85e158bd67a50a9a8449cc",
+      "size": 3036,
+      "normalized_sha256": "af492707fe85a634b44d3e761345a0385974a01dce85e158bd67a50a9a8449cc"
+    },
+    "src/main/resources/db/migration/V5__alert_diagnostic_snapshots.sql": {
+      "role": "index",
+      "sha256": "e02759288c8ef7645c290f8eb163cae871fdb1769c7f6c6047ca3cea854a464f",
+      "size": 1141,
+      "normalized_sha256": "e02759288c8ef7645c290f8eb163cae871fdb1769c7f6c6047ca3cea854a464f"
+    },
+    "src/main/resources/db/migration/V6__telemetry_quality_and_work_order_feedback.sql": {
+      "role": "index",
+      "sha256": "bf7dd183f5ce27d856a34b33702eb15668357653e559f848ea51fa0e34bf0ce0",
+      "size": 370,
+      "normalized_sha256": "bf7dd183f5ce27d856a34b33702eb15668357653e559f848ea51fa0e34bf0ce0"
+    },
+    "src/main/resources/db/migration/V7__device_scoped_health_alerts.sql": {
+      "role": "index",
+      "sha256": "2e56b2d7697cf118f2b33098c22c862801bf778829b99838fbaf499ef869dca8",
+      "size": 205,
+      "normalized_sha256": "2e56b2d7697cf118f2b33098c22c862801bf778829b99838fbaf499ef869dca8"
+    },
+    "src/main/resources/db/migration/V8__multifeature_baseline.sql": {
+      "role": "index",
+      "sha256": "198fb5ac4796c82f0e8d0d98daba2bd78c94e7791abfb7ce0e627c2aff539682",
+      "size": 494,
+      "normalized_sha256": "198fb5ac4796c82f0e8d0d98daba2bd78c94e7791abfb7ce0e627c2aff539682"
+    },
+    "src/main/resources/db/migration/V9__maintenance_plans_and_tasks.sql": {
+      "role": "index",
+      "sha256": "ffe4ae1fc0f6b8af29a9674bf32421bf397aeff7997d195e2c2bcd06d304b800",
+      "size": 1654,
+      "normalized_sha256": "ffe4ae1fc0f6b8af29a9674bf32421bf397aeff7997d195e2c2bcd06d304b800"
+    },
+    "src/test/java/com/pdm/mvp/alert/AlertServiceTest.java": {
+      "role": "index",
+      "sha256": "e174fcdf5b04975f1c18ea21ea56c973a375ce9b415b55e45e97404e09d1761c",
+      "size": 13604,
+      "normalized_sha256": "e174fcdf5b04975f1c18ea21ea56c973a375ce9b415b55e45e97404e09d1761c"
+    },
+    "src/test/java/com/pdm/mvp/alert/DeviceHealthWindowTest.java": {
+      "role": "index",
+      "sha256": "3e33473f7c707529f3e852a1e26f58ec1a82082c126d85e382e52eb626f3eab8",
+      "size": 1113,
+      "normalized_sha256": "3e33473f7c707529f3e852a1e26f58ec1a82082c126d85e382e52eb626f3eab8"
+    },
+    "src/test/java/com/pdm/mvp/analytics/BaselineConvergenceTest.java": {
+      "role": "index",
+      "sha256": "6e76b6931016b381734d5a0d0bd36f4b4d43d20aa2f340ed97bede513f5ac91e",
+      "size": 11505,
+      "normalized_sha256": "6e76b6931016b381734d5a0d0bd36f4b4d43d20aa2f340ed97bede513f5ac91e"
+    },
+    "src/test/java/com/pdm/mvp/analytics/BaselineFeatureStatisticsTest.java": {
+      "role": "index",
+      "sha256": "ab23d48e697c32b41b006085d4adc3f7faef351f25458785b4b6f8ad3798aa59",
+      "size": 6941,
+      "normalized_sha256": "ab23d48e697c32b41b006085d4adc3f7faef351f25458785b4b6f8ad3798aa59"
+    },
+    "src/test/java/com/pdm/mvp/analytics/BaselineStatisticsTest.java": {
+      "role": "index",
+      "sha256": "a711d832de8f16bc01c8896254d24a76834f039c2304ea5b3f3e4aae0e096a57",
+      "size": 1784,
+      "normalized_sha256": "a711d832de8f16bc01c8896254d24a76834f039c2304ea5b3f3e4aae0e096a57"
+    },
+    "src/test/java/com/pdm/mvp/analytics/ChannelBaselineProvisionalTest.java": {
+      "role": "index",
+      "sha256": "b218362b2f70f09feedc165b54065adcc4c7bbd00ef07efe1013fcdd36a38b6e",
+      "size": 7277,
+      "normalized_sha256": "b218362b2f70f09feedc165b54065adcc4c7bbd00ef07efe1013fcdd36a38b6e"
+    },
+    "src/test/java/com/pdm/mvp/analytics/ChannelBaselineViewTest.java": {
+      "role": "index",
+      "sha256": "a3c935f85f6c47649276f4a0b755a1457ecdb93892fff7480988e74379cc6805",
+      "size": 6870,
+      "normalized_sha256": "a3c935f85f6c47649276f4a0b755a1457ecdb93892fff7480988e74379cc6805"
+    },
+    "src/test/java/com/pdm/mvp/analytics/CoreP0FixesVerificationTest.java": {
+      "role": "index",
+      "sha256": "baa0dd262cc32b0526b8005dad3cc08c2cf7760008cf3e3573997a2f2a65661d",
+      "size": 48237,
+      "normalized_sha256": "baa0dd262cc32b0526b8005dad3cc08c2cf7760008cf3e3573997a2f2a65661d"
+    },
+    "src/test/java/com/pdm/mvp/analytics/DefectClassifierTest.java": {
+      "role": "index",
+      "sha256": "d2804e76276b7875d92ffd1ebb6e3b1aaff2c856b42fa0c24a3307370b6bc316",
+      "size": 2263,
+      "normalized_sha256": "d2804e76276b7875d92ffd1ebb6e3b1aaff2c856b42fa0c24a3307370b6bc316"
+    },
+    "src/test/java/com/pdm/mvp/analytics/DegradationTrackerTest.java": {
+      "role": "index",
+      "sha256": "10f943ba933d157c6f0f75ccca29d3b04f190f3f30c8f7791be7fdeb09fb6804",
+      "size": 2936,
+      "normalized_sha256": "10f943ba933d157c6f0f75ccca29d3b04f190f3f30c8f7791be7fdeb09fb6804"
+    },
+    "src/test/java/com/pdm/mvp/analytics/DegradationTrackerTuningTest.java": {
+      "role": "index",
+      "sha256": "e6b815bb598cc4aac5be1d471bcf73d211065dd0e27e1f6ff46200718542cb29",
+      "size": 5648,
+      "normalized_sha256": "e6b815bb598cc4aac5be1d471bcf73d211065dd0e27e1f6ff46200718542cb29"
+    },
+    "src/test/java/com/pdm/mvp/analytics/HealthIndexCalculatorTest.java": {
+      "role": "index",
+      "sha256": "4c3c7051adc7569b0c073ef186eea50acaf98b0e9804b0a157213838f097be93",
+      "size": 4616,
+      "normalized_sha256": "4c3c7051adc7569b0c073ef186eea50acaf98b0e9804b0a157213838f097be93"
+    },
+    "src/test/java/com/pdm/mvp/analytics/SpectrumBandGridTest.java": {
+      "role": "index",
+      "sha256": "763205779914190dc86d2381968b828638776f6e5dafb71fdfb8abf137ac7ed4",
+      "size": 2618,
+      "normalized_sha256": "763205779914190dc86d2381968b828638776f6e5dafb71fdfb8abf137ac7ed4"
+    },
+    "src/test/java/com/pdm/mvp/analytics/SpectrumBaselineServiceTest.java": {
+      "role": "index",
+      "sha256": "9fc2953d1788501e01c0965aa1982068c2954e3ed18e55c336fef757e28ce74e",
+      "size": 8938,
+      "normalized_sha256": "9fc2953d1788501e01c0965aa1982068c2954e3ed18e55c336fef757e28ce74e"
+    },
+    "src/test/java/com/pdm/mvp/analytics/VibrationBaselineOptionalPeakTest.java": {
+      "role": "index",
+      "sha256": "f9bd9a67fd06ab6822f6adaaa604c827f5f099a4c08776d44787029f3ff7c651",
+      "size": 10693,
+      "normalized_sha256": "f9bd9a67fd06ab6822f6adaaa604c827f5f099a4c08776d44787029f3ff7c651"
+    },
+    "src/test/java/com/pdm/mvp/asset/AssetLookupResolvePointTest.java": {
+      "role": "index",
+      "sha256": "b8a86da00b12d85bde073c5893e66fe4dc1c757976a6c5aea867225734115339",
+      "size": 2265,
+      "normalized_sha256": "b8a86da00b12d85bde073c5893e66fe4dc1c757976a6c5aea867225734115339"
+    },
+    "src/test/java/com/pdm/mvp/asset/AssetServiceTest.java": {
+      "role": "index",
+      "sha256": "a16c8b0036fb671ede4575c975cac42e51d482de02e229d62229ef99f4a75085",
+      "size": 12515,
+      "normalized_sha256": "a16c8b0036fb671ede4575c975cac42e51d482de02e229d62229ef99f4a75085"
+    },
+    "src/test/java/com/pdm/mvp/asset/DemoDataInitializerTest.java": {
+      "role": "index",
+      "sha256": "30ab09e9cc29f41a84042856c554e8fd2501695cb879ef0f2138062e9137a5ff",
+      "size": 13087,
+      "normalized_sha256": "30ab09e9cc29f41a84042856c554e8fd2501695cb879ef0f2138062e9137a5ff"
+    },
+    "src/test/java/com/pdm/mvp/bearing/BearingGeometryTest.java": {
+      "role": "index",
+      "sha256": "9ed0dbbe45ee578f74f57913af39138187e6eead2161143bfc6f28fa08d13d33",
+      "size": 1900,
+      "normalized_sha256": "9ed0dbbe45ee578f74f57913af39138187e6eead2161143bfc6f28fa08d13d33"
+    },
+    "src/test/java/com/pdm/mvp/common/ApiExceptionHandlerTest.java": {
+      "role": "index",
+      "sha256": "2f1385dc3e91cadf04859b718b70f8e7a2d65e08190e6aebe137d184cea92f2f",
+      "size": 2176,
+      "normalized_sha256": "2f1385dc3e91cadf04859b718b70f8e7a2d65e08190e6aebe137d184cea92f2f"
+    },
+    "src/test/java/com/pdm/mvp/controlvalve/ControlValvePluginContractTest.java": {
+      "role": "index",
+      "sha256": "0a888155117b2ff5551223d4d2e51aa1553a3216daa966cbfffc9ad7dcd6ddc1",
+      "size": 5756,
+      "normalized_sha256": "0a888155117b2ff5551223d4d2e51aa1553a3216daa966cbfffc9ad7dcd6ddc1"
+    },
+    "src/test/java/com/pdm/mvp/controlvalve/ControlValvePluginTest.java": {
+      "role": "index",
+      "sha256": "0d040da94834947661cb21b5cde9a3fe0dcd3b0702bbb48f52558b2dd23ccdcc",
+      "size": 10050,
+      "normalized_sha256": "0d040da94834947661cb21b5cde9a3fe0dcd3b0702bbb48f52558b2dd23ccdcc"
+    },
+    "src/test/java/com/pdm/mvp/diagnostics/DiagnosticEvaluatorVfdOrderTest.java": {
+      "role": "index",
+      "sha256": "0968aa3acc7cc7ea1625c07d06e9bc772509b10ada8b4d0ed8683df55cbd413c",
+      "size": 3507,
+      "normalized_sha256": "0968aa3acc7cc7ea1625c07d06e9bc772509b10ada8b4d0ed8683df55cbd413c"
+    },
+    "src/test/java/com/pdm/mvp/dsp/DspAcceptanceTest.java": {
+      "role": "index",
+      "sha256": "2eb6bfad12d7432a525b5447de87f19dc4fd73551d4b2b997c95abb0f3654ca5",
+      "size": 6948,
+      "normalized_sha256": "2eb6bfad12d7432a525b5447de87f19dc4fd73551d4b2b997c95abb0f3654ca5"
+    },
+    "src/test/java/com/pdm/mvp/mcsa/McsaPluginTest.java": {
+      "role": "index",
+      "sha256": "08b2ed89461965359536d4dfc14a73fd4e0aad0824009652233a58088e323612",
+      "size": 8533,
+      "normalized_sha256": "08b2ed89461965359536d4dfc14a73fd4e0aad0824009652233a58088e323612"
+    },
+    "src/test/java/com/pdm/mvp/modality/DiagnosticMicrokernelTest.java": {
+      "role": "index",
+      "sha256": "da6b3f347bf1fca79673d0a3f58cd69b69132fe0f92519e83e72e36246d4d42f",
+      "size": 11569,
+      "normalized_sha256": "da6b3f347bf1fca79673d0a3f58cd69b69132fe0f92519e83e72e36246d4d42f"
+    },
+    "src/test/java/com/pdm/mvp/modality/MechanismDegradationDynamicsTest.java": {
+      "role": "index",
+      "sha256": "80d06278dd0f7dd6be44eea1e74c19566d7e0d526362deb661821989ea31bbf2",
+      "size": 8600,
+      "normalized_sha256": "80d06278dd0f7dd6be44eea1e74c19566d7e0d526362deb661821989ea31bbf2"
+    },
+    "src/test/java/com/pdm/mvp/modality/MechanismStrategyPluginTest.java": {
+      "role": "index",
+      "sha256": "7de36e5a129841b94c1c953d3d0708d9308e629b0d6afb2503b1dea8854f979c",
+      "size": 14802,
+      "normalized_sha256": "7de36e5a129841b94c1c953d3d0708d9308e629b0d6afb2503b1dea8854f979c"
+    },
+    "src/test/java/com/pdm/mvp/modality/ModalityCatalogTest.java": {
+      "role": "index",
+      "sha256": "b5a71a2b3a352a72f12049120c5e6da120f1d9c150287767e6211ccccddfff4a",
+      "size": 10845,
+      "normalized_sha256": "b5a71a2b3a352a72f12049120c5e6da120f1d9c150287767e6211ccccddfff4a"
+    },
+    "src/test/java/com/pdm/mvp/modality/ModalityKernelTest.java": {
+      "role": "index",
+      "sha256": "50479df7551bfa34cddb4772f0b1dd44b7def063fa4edb2d18c62b9ce4d17d7f",
+      "size": 9263,
+      "normalized_sha256": "50479df7551bfa34cddb4772f0b1dd44b7def063fa4edb2d18c62b9ce4d17d7f"
+    },
+    "src/test/java/com/pdm/mvp/modality/ModalityPluginRegistryTest.java": {
+      "role": "index",
+      "sha256": "8d25d501c2922ce0999915f6663c70561585df91a957b1ed54980f202c85a685",
+      "size": 2972,
+      "normalized_sha256": "8d25d501c2922ce0999915f6663c70561585df91a957b1ed54980f202c85a685"
+    },
+    "src/test/java/com/pdm/mvp/modality/ModalityPluginWiringTest.java": {
+      "role": "index",
+      "sha256": "77f34118057b3df32057bb81e3adde6224245d8d9b9755ace9b30c18a3f5f348",
+      "size": 5853,
+      "normalized_sha256": "77f34118057b3df32057bb81e3adde6224245d8d9b9755ace9b30c18a3f5f348"
+    },
+    "src/test/java/com/pdm/mvp/multimodal/MultimodalAcceptanceTest.java": {
+      "role": "index",
+      "sha256": "c60fd380a2b65f295c765f774f9a3d695ffc77de6940593062b40855a0c7fdcc",
+      "size": 23714,
+      "normalized_sha256": "c60fd380a2b65f295c765f774f9a3d695ffc77de6940593062b40855a0c7fdcc"
+    },
+    "src/test/java/com/pdm/mvp/prediction/FailurePredictionQueryAmplificationTest.java": {
+      "role": "index",
+      "sha256": "3e98eb7ba72c761a4233b7f6c5ef20afcd9fa9103123e06e1bd2f44b762e274d",
+      "size": 4563,
+      "normalized_sha256": "3e98eb7ba72c761a4233b7f6c5ef20afcd9fa9103123e06e1bd2f44b762e274d"
+    },
+    "src/test/java/com/pdm/mvp/snapshot/ChannelSnapshotServiceTest.java": {
+      "role": "index",
+      "sha256": "8c823c3a00db38c689e2c70b258a7350a620f059d5daa49f08f726be21bc648c",
+      "size": 25749,
+      "normalized_sha256": "8c823c3a00db38c689e2c70b258a7350a620f059d5daa49f08f726be21bc648c"
+    },
+    "src/test/java/com/pdm/mvp/snapshot/ModalityStreamControllerTest.java": {
+      "role": "index",
+      "sha256": "5bb94260056bcd9b23ccfc057492e94ee3dfda59e828102353b2745632318af1",
+      "size": 5271,
+      "normalized_sha256": "5bb94260056bcd9b23ccfc057492e94ee3dfda59e828102353b2745632318af1"
+    },
+    "src/test/java/com/pdm/mvp/snapshot/ModalityStreamHubTest.java": {
+      "role": "index",
+      "sha256": "2b77f6c2e27ee352ea3d1166943ddea540bdf231bc2734a3386780abfdddf163",
+      "size": 9910,
+      "normalized_sha256": "2b77f6c2e27ee352ea3d1166943ddea540bdf231bc2734a3386780abfdddf163"
+    },
+    "src/test/java/com/pdm/mvp/snapshot/PhmSnapshotPayloadTest.java": {
+      "role": "index",
+      "sha256": "749246ea8412ddd4f43de8b55fa865e5d448e02b8389ff4fd11d7bbd9e2a83de",
+      "size": 8707,
+      "normalized_sha256": "749246ea8412ddd4f43de8b55fa865e5d448e02b8389ff4fd11d7bbd9e2a83de"
+    },
+    "src/test/java/com/pdm/mvp/snapshot/StreamPublishHookTest.java": {
+      "role": "index",
+      "sha256": "abcf2436446a909de69072e9bf2b6d65bbaeb3de4c09d34b60f79cbd7e024edb",
+      "size": 9409,
+      "normalized_sha256": "abcf2436446a909de69072e9bf2b6d65bbaeb3de4c09d34b60f79cbd7e024edb"
+    },
+    "src/test/java/com/pdm/mvp/snapshot/StrokeAnnotationCalculatorTest.java": {
+      "role": "index",
+      "sha256": "639ed8348baf8c4d0c83c3bb256e8b2af3bb3f9af151d59723f7d5e40ecc2269",
+      "size": 6518,
+      "normalized_sha256": "639ed8348baf8c4d0c83c3bb256e8b2af3bb3f9af151d59723f7d5e40ecc2269"
+    },
+    "src/test/java/com/pdm/mvp/snapshot/ValveLoopAnalyzerTest.java": {
+      "role": "index",
+      "sha256": "81587026bc0c2e9659c16f71bf7954803bf4ac66399e57a8cb38ff6b7ea2f86e",
+      "size": 5273,
+      "normalized_sha256": "81587026bc0c2e9659c16f71bf7954803bf4ac66399e57a8cb38ff6b7ea2f86e"
+    },
+    "src/test/java/com/pdm/mvp/snapshot/ValveLoopEndpointTest.java": {
+      "role": "index",
+      "sha256": "5e1a2d742131e42fcf109206e1a4643e2d6346cf2389a2633cbc4915cda2ca11",
+      "size": 9800,
+      "normalized_sha256": "5e1a2d742131e42fcf109206e1a4643e2d6346cf2389a2633cbc4915cda2ca11"
+    },
+    "src/test/java/com/pdm/mvp/switchgear/CircuitBreakerPluginContractTest.java": {
+      "role": "index",
+      "sha256": "7694333e164623583603ddec2178c031929ec8efc7bde1d58268f2673179ae25",
+      "size": 5934,
+      "normalized_sha256": "7694333e164623583603ddec2178c031929ec8efc7bde1d58268f2673179ae25"
+    },
+    "src/test/java/com/pdm/mvp/switchgear/CircuitBreakerPluginTest.java": {
+      "role": "index",
+      "sha256": "62c0d0f19a11402675d45c2f7ac945fdade97c5a2c7f2205020535a07a21a9b9",
+      "size": 8167,
+      "normalized_sha256": "62c0d0f19a11402675d45c2f7ac945fdade97c5a2c7f2205020535a07a21a9b9"
+    },
+    "src/test/java/com/pdm/mvp/telemetry/ContractTelemetryRequestTest.java": {
+      "role": "index",
+      "sha256": "0534fa2b4cd0f268ff538ae757f77240192fb6f492d08634936bd62544b4d033",
+      "size": 7450,
+      "normalized_sha256": "0534fa2b4cd0f268ff538ae757f77240192fb6f492d08634936bd62544b4d033"
+    },
+    "src/test/java/com/pdm/mvp/telemetry/MqttRoutingPrefixTest.java": {
+      "role": "index",
+      "sha256": "3918b71c634ffb398250097ee3f4e33fa836bb1bee9f4f82cbeb40178f20bfd4",
+      "size": 4407,
+      "normalized_sha256": "3918b71c634ffb398250097ee3f4e33fa836bb1bee9f4f82cbeb40178f20bfd4"
+    },
+    "src/test/java/com/pdm/mvp/telemetry/MqttTelemetryConsumerTest.java": {
+      "role": "index",
+      "sha256": "b1916d1fd10b221349ccaa565f41ab692a6897961e05e85942967c31b0f3fbec",
+      "size": 12858,
+      "normalized_sha256": "b1916d1fd10b221349ccaa565f41ab692a6897961e05e85942967c31b0f3fbec"
+    },
+    "src/test/java/com/pdm/mvp/telemetry/PhmTelemetryRequestTest.java": {
+      "role": "index",
+      "sha256": "b0d5174493cc8cd7ccde1907cc9c91876bae5d729cecc3f2f4b03f0620355fad",
+      "size": 14761,
+      "normalized_sha256": "b0d5174493cc8cd7ccde1907cc9c91876bae5d729cecc3f2f4b03f0620355fad"
+    },
+    "src/test/java/com/pdm/mvp/telemetry/PhmTopicIdentityTest.java": {
+      "role": "index",
+      "sha256": "e3f0fb0438a1b65f8479a1e2dfd9954e09f0a9b808e66794e7f196381c5f9a7b",
+      "size": 2351,
+      "normalized_sha256": "e3f0fb0438a1b65f8479a1e2dfd9954e09f0a9b808e66794e7f196381c5f9a7b"
+    },
+    "src/test/java/com/pdm/mvp/telemetry/ProtocolTelemetryRequestTest.java": {
+      "role": "index",
+      "sha256": "859237e211f143cbae47b993188bdc93281fa645ba6a5ee72a5af9c0c485fd18",
+      "size": 4090,
+      "normalized_sha256": "859237e211f143cbae47b993188bdc93281fa645ba6a5ee72a5af9c0c485fd18"
+    },
+    "src/test/java/com/pdm/mvp/telemetry/TelemetryContractValidationTest.java": {
+      "role": "index",
+      "sha256": "eb2074fd896ef0e3f86f6abdf70e325d9b78babfdb632d77e9ffcfc5639a1385",
+      "size": 5045,
+      "normalized_sha256": "eb2074fd896ef0e3f86f6abdf70e325d9b78babfdb632d77e9ffcfc5639a1385"
+    },
+    "src/test/java/com/pdm/mvp/telemetry/TelemetryEnvelopeValidationTest.java": {
+      "role": "index",
+      "sha256": "2d498dff3e60ef44c6dab4a2b08dd31b1281b62f0e16b6b6d44c3f3c0b5838d3",
+      "size": 12669,
+      "normalized_sha256": "2d498dff3e60ef44c6dab4a2b08dd31b1281b62f0e16b6b6d44c3f3c0b5838d3"
+    },
+    "src/test/java/com/pdm/mvp/telemetry/TelemetryServicePipelineTest.java": {
+      "role": "index",
+      "sha256": "4365c62b70e66cfb4fd82d0476cd030cec1f3dd0432f17ca8e82851b086d5a94",
+      "size": 12791,
+      "normalized_sha256": "4365c62b70e66cfb4fd82d0476cd030cec1f3dd0432f17ca8e82851b086d5a94"
+    },
+    "src/test/java/com/pdm/mvp/telemetry/VibrationContractAdapterTest.java": {
+      "role": "index",
+      "sha256": "4963786e7c1628f0ff8cce6a04924f6894f0ba6aec8872f8b196a72e764ba547",
+      "size": 5658,
+      "normalized_sha256": "4963786e7c1628f0ff8cce6a04924f6894f0ba6aec8872f8b196a72e764ba547"
+    },
+    "src/test/java/com/pdm/mvp/timeseries/ChannelSeriesServiceTest.java": {
+      "role": "index",
+      "sha256": "3a0024a41fa03d34b30f233daecc03027ddd604dec3bea2c5390288ce0335d49",
+      "size": 12766,
+      "normalized_sha256": "3a0024a41fa03d34b30f233daecc03027ddd604dec3bea2c5390288ce0335d49"
+    },
+    "src/test/java/com/pdm/mvp/timeseries/InfluxTelemetryStorePeakSentinelTest.java": {
+      "role": "index",
+      "sha256": "c0529c0272ff6896c438de146b81625841537013502e1b4036b7aaaf20ec456f",
+      "size": 8167,
+      "normalized_sha256": "c0529c0272ff6896c438de146b81625841537013502e1b4036b7aaaf20ec456f"
+    },
+    "src/test/java/com/pdm/mvp/timeseries/InfluxTelemetryStoreTest.java": {
+      "role": "index",
+      "sha256": "bddae02ff2ac29c114c537b6f7a3ab0de677902812a38c43c8d6e11c5db2f0c4",
+      "size": 17139,
+      "normalized_sha256": "bddae02ff2ac29c114c537b6f7a3ab0de677902812a38c43c8d6e11c5db2f0c4"
+    },
+    "src/test/java/com/pdm/mvp/waveform/WaveformServiceTest.java": {
+      "role": "index",
+      "sha256": "9728258094335158d09679b9bdfc66db94164334b1dae4d14250bdf2b400a87c",
+      "size": 3472,
+      "normalized_sha256": "9728258094335158d09679b9bdfc66db94164334b1dae4d14250bdf2b400a87c"
+    },
+    "src/test/java/com/pdm/mvp/waveform/WaveframeServiceTest.java": {
+      "role": "index",
+      "sha256": "699951e31cb08ff3bf3dde36297a285171fa979b47169cffc3e12217384b5ed8",
+      "size": 3882,
+      "normalized_sha256": "699951e31cb08ff3bf3dde36297a285171fa979b47169cffc3e12217384b5ed8"
+    },
+    "src/test/java/com/pdm/mvp/workorder/WorkOrderRouteTest.java": {
+      "role": "index",
+      "sha256": "a7587c787c4d670d18bf071edf6a19e7ea0e119fc1ea16bd904132106595edf0",
+      "size": 941,
+      "normalized_sha256": "a7587c787c4d670d18bf071edf6a19e7ea0e119fc1ea16bd904132106595edf0"
+    }
+  },
+  "managed_scope": {
+    "version": "managed-scope-baseline/v1",
+    "policy_identity": "c524fe7b085997ed5ea98aed37b7da6fe9bb78ac295de5d26858abf9514790fe",
+    "observe_change_policy": "review_required",
+    "budget_policy_identity": "15e9b37a6c57e9bf03c9df3d0d049eb5b9a7f5540f9d34960408114e2538a32d",
+    "budget_policy": {
+      "version": "cognition-budget-policy/v1",
+      "mode": "enforce",
+      "whole_index": {
+        "target_tokens": 200000,
+        "warning_tokens": 300000,
+        "max_tokens": 400000
+      },
+      "r": [
+        {
+          "min_c": 1,
+          "max_c": 4,
+          "target_tokens": 25,
+          "max_tokens": 50
+        },
+        {
+          "min_c": 5,
+          "max_c": 7,
+          "target_tokens": 45,
+          "max_tokens": 90
+        },
+        {
+          "min_c": 8,
+          "max_c": 8,
+          "target_tokens": 70,
+          "max_tokens": 140
+        },
+        {
+          "min_c": 9,
+          "max_c": 9,
+          "target_tokens": 90,
+          "max_tokens": 180
+        }
+      ],
+      "s": [
+        {
+          "min_c": 1,
+          "max_c": 4,
+          "target_tokens": 20,
+          "max_tokens": 40
+        },
+        {
+          "min_c": 5,
+          "max_c": 7,
+          "target_tokens": 40,
+          "max_tokens": 80
+        },
+        {
+          "min_c": 8,
+          "max_c": 8,
+          "target_tokens": 70,
+          "max_tokens": 140
+        },
+        {
+          "min_c": 9,
+          "max_c": 9,
+          "target_tokens": 100,
+          "max_tokens": 200
+        }
+      ]
+    },
+    "apply_authorization_mode": "auto"
+  }
+}
